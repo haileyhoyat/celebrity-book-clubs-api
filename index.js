@@ -66,6 +66,7 @@ function reese() {
             $('span.css-h011xd', html).each(function(){
                 if (($(this).text() != "\"")){
 
+                    //replace slanted quotation and line breaks with straight quotations
                     full_string = $(this).text().replace("\n", "").replace("“", "\"").replace("”", "\"").replace("’", "\'")                    
 
                     //console.log(full_string)
@@ -110,7 +111,7 @@ function reese() {
 
             jenna_staging = []
 
-            var current_month = ''
+            
             count_title = 0
             count_date = 0
 
@@ -141,13 +142,10 @@ function reese() {
                         }
                 }
 
-                console.log(jenna_staging)
-                //filter out intro paragraphs which are first three children
-                //filter out last child which is Stephanie Larratt's contact
-                //jenna_staging = jenna_staging.slice(3, jenna_staging.length-2)
+                //create jenna_staging2[] without intro paragrahs (first three children) and contact elements (last two children)
+                jenna_staging2 = jenna_staging.slice(3, jenna_staging.length-2)
                 
-                //now start putting elements into books[]
-
+                console.log(jenna_staging2)
                 
 
             })
