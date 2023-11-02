@@ -7,6 +7,16 @@ const app = express()
 const books = []
 
 const book_clubs = [
+    
+    {
+        name: "Jenna Bush Hager",
+        address: "https://www.today.com/shop/read-jenna-book-club-list-today-s-jenna-bush-hager-t164652"
+    }
+
+
+]
+/*
+const book_clubs = [
     {
         name: "Reese Witherspoon",
         address: "https://reesesbookclub.com/article/4eRlfCOXueqPrm6ZnQpzwl"
@@ -22,7 +32,7 @@ const book_clubs = [
 
 
 ]
-
+*/
 
 book_clubs.forEach(club => {
     if (club.name === "Reese Witherspoon"){
@@ -52,6 +62,7 @@ function reese() {
             const html = response.data
             const $ = cheerio.load(html)
             //console.log(html)
+            //elements of class .span.css-h011xd contains title, quthor, date, month, year
             $('span.css-h011xd', html).each(function(){
                 if (($(this).text() != "\"")){
 
@@ -92,47 +103,56 @@ function reese() {
 
     
     function jenna () {
-        full_string = "Hello"
-        author = "Hello"
-        title = "Hello"
+        axios.get('https://www.today.com/shop/read-jenna-book-club-list-today-s-jenna-bush-hager-t164652')
+        .then((response)=>{
+            const html = response.data
+            const $ = cheerio.load(html)
 
-        //full date
-        date = "Hello"
-        //month
-        month = "Hello"
-        //year
-        year = "Hello"
-        
-        books.push({
-            full_string,
-            author,
-            title,
-            date,
-            month,
-            year
-        })
-    }
+            jenna_staging = []
 
-    function bellatrist() {
-        full_string = "World"
-        author = "World"
-        title = "World"
+            var current_month = ''
+            count_title = 0
+            count_date = 0
 
-        //full date
-        date = "World"
-        //month
-        month = "World"
-        //year
-        year = "World"
-        
-        books.push({
-            full_string,
-            author,
-            title,
-            date,
-            month,
-            year
-        })
+            //.article-body__content is the class of the element that contains the book list
+            //returns an object from which you can extract its children
+            // the children are string of various info
+            //need to filter out children that are not useful
+            $('.article-body__content').children().each(function(){
+                //console.log($(this).text())
+                full_string = $(this).text()
+                
+                //put children in a staging array
+                jenna_staging.push({
+                    full_string
+                })
+
+                
+                //filter out empty children
+                //filter out children that are links to place to buy the book
+                for (let i = 0; i < jenna_staging.length; i++){
+                    if (
+                        
+                        (jenna_staging[i].full_string === "") || 
+                        (jenna_staging[i].full_string.includes("Amazon")) ||
+                        (jenna_staging[i].full_string.includes("Bookshop.org")))
+                        {
+                               jenna_staging.pop(i) 
+                        }
+                }
+
+                console.log(jenna_staging)
+                //filter out intro paragraphs which are first three children
+                //filter out last child which is Stephanie Larratt's contact
+                //jenna_staging = jenna_staging.slice(3, jenna_staging.length-2)
+                
+                //now start putting elements into books[]
+
+                
+
+            })
+            
+        }).catch((err) => console.log(err))
     }
 
 
