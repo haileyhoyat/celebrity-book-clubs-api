@@ -6,18 +6,11 @@ const app = express()
 
 const books = []
 
+//all book clubs to scrape from
 const book_clubs = [
     
     
     /*
-    {
-        name: "reesewitherspoon",
-        address: "https://reesesbookclub.com/article/4eRlfCOXueqPrm6ZnQpzwl"
-    },
-    {
-        name: "jennabushhager",
-        address: "https://www.today.com/shop/read-jenna-book-club-list-today-s-jenna-bush-hager-t164652"
-    },
     {
         name: "Belletrist",
         address: "https://www.belletrist.com/archive"
@@ -35,6 +28,7 @@ const book_clubs = [
 
 ]
 
+//retireve books from all items book_clubs[]
 book_clubs.forEach(club => {
     if (club.name === "reesewitherspoon"){
         reese()
@@ -47,38 +41,34 @@ book_clubs.forEach(club => {
     }
 });
 
-
+//welcome page to api
 app.get('/', (req, res) => {
     res.json("Welcome to my celebrity book clubs api")
 })
 
+//retireve items in books[] and display as json{}
 app.get('/books', (req, res)=>{
     res.json(books)     
 })
 
+//retrieve items for a specific bookclub and display as json{}
 app.get('/books/:bookclub', (req, res) => {
     //console.log(req.params.bookclub)
     const book_club_host = req.params.bookclub
+    var specific_books = []
 
-    const book_club = book_clubs.filter(book_clubs => book_clubs.name == book_club_host)
+    //console.log(book_club_host)
 
-    console.log(book_club)
-
-    if (book_club.name === "reesewitherspoon"){
-        reese()
-
+    if (book_club_host == "reesewitherspoon"){
+        specific_books = books.filter(book => book.book_club == "reesewitherspoon")  
     }
-    else if (book_club.name === "jennabushhager"){
-        jenna()
-        
+    
+    if(book_club_host == "jennabushhager"){
+        specific_books = books.filter(book => book.book_club == "jennabushhager")
     }
-    else if (book_club.name === "Belletrist"){
-        //
-    }
+    
+    res.json(specific_books)
 
-    //console.log(res)
-
-    //axios.get()
 })
 
 
