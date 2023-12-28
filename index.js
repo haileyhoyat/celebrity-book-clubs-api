@@ -5,7 +5,7 @@ const cheerio = require('cheerio')
 const app = express()
 
 const books = []
-//test
+
 //all book clubs to scrape from
 const book_clubs = [
     
@@ -15,6 +15,7 @@ const book_clubs = [
         name: "Belletrist",
         address: "https://www.belletrist.com/archive"
     }
+    
     */
     {
         name: "reesewitherspoon",
@@ -24,6 +25,10 @@ const book_clubs = [
         name: "jennabushhager",
         address: "https://www.today.com/shop/read-jenna-book-club-list-today-s-jenna-bush-hager-t164652"
     },
+    {
+        name: "goodmorningamerica",
+        address: "https://www.goodmorningamerica.com/culture/story/shop-gma-book-club-picks-list--81520726"
+    }
     
 
 ]
@@ -35,6 +40,9 @@ book_clubs.forEach(club => {
     }
     else if (club.name === "jennabushhager"){
         jenna()
+    }
+    else if (club.name === "goodmorningamerica"){
+        goodmorningamerica()
     }
     else if (club.name === "belletrist"){
         //
@@ -66,6 +74,10 @@ app.get('/books/:bookclub', (req, res) => {
     if(book_club_host == "jennabushhager"){
         specific_books = books.filter(book => book.book_club == "jennabushhager")
     }
+
+    if(book_club_host == "goodmorningamerica"){
+        specific_books = books.filter(book => book.book_club == "goodmorningamerica")
+    }
     
     res.json(specific_books)
 
@@ -78,14 +90,15 @@ function reese() {
             const html = response.data
             const $ = cheerio.load(html)
             //console.log(html)
-            //elements of class .span.css-h011xd contains title, quthor, date, month, year
-            $('span.css-h011xd', html).each(function(){
+            //elements of class .span.css-h011xd contains title, author, date, month, year
+            $('p span.css-h011xd', html).each(function(){
                 if (($(this).text() != "\"")){
 
                     //replace slanted quotation and line breaks with straight quotations
                     full_string = $(this).text().replace("\n", "").replace("“", "\"").replace("”", "\"").replace("’", "\'")                    
 
                     //console.log(full_string)
+                    
                     author = full_string.split("by")[1].trim()
                     title = full_string.split("\"")[1].trim()
 
@@ -97,14 +110,15 @@ function reese() {
                     year = "20" + date.split("\'")[1]
 
                     //remove YA books
-                    for (let i = 0; i < books.length; i++){
+                    /*for (let i = 0; i < books.length; i++){
                         if (date.includes("YA")){
                             books.pop(i)
                         }
-                    }
+                    }*/
+                    
                     
                     books.push({
-                        //full_string,
+                        //full_string: full_string,
                         book_club: 'reesewitherspoon',
                         title,
                         author,
@@ -187,6 +201,7 @@ function jenna () {
                 title = (jenna_staging[i].full_string.split(" by ")[0]).replace("“", "").replace("”", "").replace("\"", "").replace(",", "")
                 //console.log(title)
                 books.push({
+                    //full_string: full_string,
                     book_club: 'jennabushhager',
                     title,
                     author,
@@ -202,6 +217,68 @@ function jenna () {
     }).catch((err) => console.log(err))
 }
 
+function goodmorningamerica() {
+    axios.get('https://www.goodmorningamerica.com/culture/story/shop-gma-book-club-picks-list--81520726')
+        .then((response) => {
+            const html = response.data
+            const $ = cheerio.load(html)
+            all_items = []
+            dates = []
+            book_title_author = []
+            //console.log(html)
+            //the date is in an h3 tag, the book title and book author is in another h3 tag
+            $('h3', html).each(function(){
+                full_string = $(this).text()
+                all_items.push(full_string)
+                
+                if ((full_string.includes('2024')) || full_string.includes('2023') || full_string.includes('2022') || full_string.includes('2021') || full_string.includes('2020') || full_string.includes('2019')){
+                    dates.push(full_string)
+                }
+                else{
+                    book_title_author.push(full_string)
+                }
+                
+                
+            })
+            
+            //last four items iin book_title_author are ads
+            book_title_author.pop()
+            book_title_author.pop()
+            book_title_author.pop()
+            book_title_author.pop()
+            
+            console.log(dates)
+            console.log(dates.length)
+            console.log(book_title_author)
+            console.log(book_title_author.length)
+            
+            for (let i = 0; i < dates.length; i++){
+                
+
+                title = book_title_author[i].split("by")[0].trim()
+
+                //sometimes the author is missing
+                try{
+                    author = book_title_author[i].split("by")[1].trim()
+                }catch{
+                    author = "N/A"
+                }
+
+                month = dates[i].split(" ")[0].trim()
+                year = dates[i].split(" ")[1].trim()
+                books.push({
+                    //full_string: full_string,
+                    book_club: 'goodmorningamerica',
+                    title,
+                    author,
+                    month,
+                    year,
+                })
+            }
+
+        }).catch((err) => console.log(err))
+    
+}
 
 
 app.listen(PORT, () => console.log(`Listening on port ${PORT}`))
