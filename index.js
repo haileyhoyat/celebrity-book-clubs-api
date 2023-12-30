@@ -61,7 +61,7 @@ book_clubs.forEach(club => {
 
 //welcome page to api
 app.get('/', (req, res) => {
-    res.json("Welcome to the B-List. This is an API that aggregates books from notable book lists.")
+    res.json("Welcome to the BList. This is an API that aggregates books from notable book lists.")
 })
 
 //retireve items in books[] and display as json{}
