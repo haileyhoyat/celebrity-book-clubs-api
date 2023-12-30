@@ -1,4 +1,4 @@
-const PORT = 9000
+const PORT = process.env.PORT || 9000
 const express = require('express')
 const axios = require('axios')
 const cheerio = require('cheerio')
@@ -14,6 +14,14 @@ const book_clubs = [
     {
         name: "Belletrist",
         address: "https://www.belletrist.com/archive"
+    },
+    {
+        name: "reesewitherspoon",
+        address: "https://reesesbookclub.com/article/4eRlfCOXueqPrm6ZnQpzwl"
+    },
+    {
+        name: "goodmorningamerica",
+        address: "https://www.goodmorningamerica.com/culture/story/shop-gma-book-club-picks-list--81520726"
     }
     
     */
@@ -22,13 +30,15 @@ const book_clubs = [
         address: "https://reesesbookclub.com/article/4eRlfCOXueqPrm6ZnQpzwl"
     },
     {
+        name: "goodmorningamerica",
+        address: "https://www.goodmorningamerica.com/culture/story/shop-gma-book-club-picks-list--81520726"
+    },
+    
+    {
         name: "jennabushhager",
         address: "https://www.today.com/shop/read-jenna-book-club-list-today-s-jenna-bush-hager-t164652"
     },
-    {
-        name: "goodmorningamerica",
-        address: "https://www.goodmorningamerica.com/culture/story/shop-gma-book-club-picks-list--81520726"
-    }
+    
     
 
 ]
@@ -247,10 +257,10 @@ function goodmorningamerica() {
             book_title_author.pop()
             book_title_author.pop()
             
-            console.log(dates)
-            console.log(dates.length)
-            console.log(book_title_author)
-            console.log(book_title_author.length)
+            //console.log(dates)
+            //console.log(dates.length)
+            //console.log(book_title_author)
+            //console.log(book_title_author.length)
             
             for (let i = 0; i < dates.length; i++){
                 
