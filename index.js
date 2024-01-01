@@ -4,9 +4,10 @@ const axios = require('axios') //scraping package
 const cheerio = require('cheerio') //jQuery for node.js
 const app = express() //web framework for node.js
 
+//list of books from all book lists
 const books = []
 
-//all book clubs to scrape from
+//list of book lists to scrape from
 const book_clubs = [
     
     
@@ -32,6 +33,7 @@ const book_clubs = [
 
 ]
 
+//scrape books from book lists
 function get_all_books(){
     //retireve books from all items book_clubs[]
     book_clubs.forEach(club => {
@@ -48,6 +50,7 @@ function get_all_books(){
     });
 }
 
+//upon the api starting, scrape books
 get_all_books()
 
 //welcome page to api
@@ -67,9 +70,11 @@ app.get('/books/:bookclub', (req, res) => {
     var specific_books = []
 
     //check that books[] is populated
-    if (books.length === 0){
+    //just in case somebody makes a request to a book list, and books[] is empty, scrape all books
+    //this is needed because the params are returned based on filtering books[] 
+    /*if (books.length === 0){
         get_all_books
-    }
+    }*/
 
     if (book_club_host == "reesewitherspoon"){
         specific_books = books.filter(book => book.book_club == "reesewitherspoon")  
@@ -126,8 +131,11 @@ function reese() {
                         book_club: 'reesewitherspoon',
                         title,
                         author,
-                        month,
-                        year
+                        date: {
+                            month,
+                            year
+                        }
+                        
                     })
                     
                     
@@ -146,8 +154,8 @@ function todayshow () {
         const $ = cheerio.load(html)
 
         jenna_staging = []
-        current_month = ''
-        current_year = ''
+        month = ''
+        year = ''
 
         //.article-body__content is the class of the element that contains the book list
         //returns an object from which you can extract its children
@@ -197,8 +205,8 @@ function todayshow () {
                 (jenna_staging[i].full_string.includes('2022')) ||
                 (jenna_staging[i].full_string.includes('2023')) ||
                 (jenna_staging[i].full_string.includes('2024'))){
-                current_month = jenna_staging[i].full_string.split(" ")[0]
-                current_year = jenna_staging[i].full_string.split(" ")[1]
+                month = jenna_staging[i].full_string.split(" ")[0]
+                year = jenna_staging[i].full_string.split(" ")[1]
             }
             else{
                 author = jenna_staging[i].full_string.split(" by ")[1].trim()
@@ -209,8 +217,10 @@ function todayshow () {
                     book_club: 'todayshow',
                     title,
                     author,
-                    month: current_month,
-                    year: current_year
+                    date: {
+                        month,
+                        year
+                    }
                 })
             }
         
@@ -275,8 +285,11 @@ function goodmorningamerica() {
                     book_club: 'goodmorningamerica',
                     title,
                     author,
-                    month,
-                    year,
+                    date: {
+                        month,
+                        year,
+                    }
+                    
                 })
             }
 
