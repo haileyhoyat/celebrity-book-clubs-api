@@ -35,28 +35,18 @@ const book_lists = [
 
 ]
 
-//scrape books from book_lists[]
-function get_all_books(){
-    reese()
-    todayshow()
-    goodmorningamerica()
-    /*
-    book_lists.forEach(list => {
-        if (list.name === "reesewitherspoon"){
-            reese()
-        }
-        else if (list.name === "todayshow"){
-            todayshow()
-        }
-        else if (list.name === "goodmorningamerica"){
-            goodmorningamerica()
-        }
-        
-    });*/
+book_lists.forEach(list => {
+    if (list.name === "reesewitherspoon"){
+        reese()
+    }
+    else if (list.name === "todayshow"){
+        todayshow()
+    }
+    else if (list.name === "goodmorningamerica"){
+        goodmorningamerica()
+    }
     
-}
-
-get_all_books()
+});
 
 //welcome page to api
 app.get('/', (req, res) => {
