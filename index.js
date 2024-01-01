@@ -80,13 +80,6 @@ app.get('/books/:booklist', (req, res) => {
     const book_club_host = req.params.booklist
     var specific_books = []
 
-    //check that books[] is populated
-    //just in case somebody makes a request to a book list, and books[] is empty, scrape all books
-    //this is needed because the params are returned based on filtering books[] 
-    if (books.length === 0){
-        get_all_books()
-    }
-
     if (book_club_host == "reesewitherspoon"){
         specific_books = books.filter(book => book.book_list == "reesewitherspoon")  
     } else if(book_club_host == "todayshow"){
