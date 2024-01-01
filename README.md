@@ -5,12 +5,13 @@ The book_lists that are currently being scraped are:
 - goodmorningamerica: Book club for Good Morning America (https://www.goodmorningamerica.com/culture/story/shop-gma-book-club-picks-list--81520726)
 - todayshow: Book club for The Today Show (hosted by Jenna Bush Hager) (https://www.today.com/shop/read-jenna-book-club-list-today-s-jenna-bush-hager-t164652)
 
-To run this API on your own machine:
+To run this API locally:
 1) clone the repo 'git clone https://github.com/haileyhoyat/celebrity-book-clubs-api.git'.
 2) Run the command 'npm install && npm start'.
 
 The API returns books from each book list in a json format. 
 
+Example json() response object: 
 {
     "book_list": "todayshow",
     "title": "The Sun Sets in Singapore",
@@ -25,7 +26,6 @@ URI to return all books: https://celebrity-book-clubs-api-git-main-hails-project
 
 URI to return a specific book list: https://celebrity-book-clubs-api-git-main-hails-projects-2a5888c5.vercel.app/books/{book_list}
 
-
-
-
+Current Issues: 
+- (01/01/2024): The production API endpoints are a bit buggy in that the data won't load immediately. Sometimes you have to visit the ./books endpoint first before visiting the  ./books/{book_list} endpoint. To solve this, run the API locally. 
 
