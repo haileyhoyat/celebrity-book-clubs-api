@@ -12,9 +12,10 @@ To run this API locally:
 The API returns books from each book list in a json format. 
 
 Example json() response object: 
+
+
 {
-
-
+    
     "book_list": "todayshow",
 
 
@@ -34,7 +35,6 @@ Example json() response object:
 
 
     }
-
     
 }
 
