@@ -37,6 +37,7 @@ const book_lists = [
 
 //scrape books from book_lists[]
 function get_all_books(){
+    /*
     //retireve books from all items book_clubs[]
     
     book_lists.forEach(list => {
@@ -52,10 +53,8 @@ function get_all_books(){
         
     });
     //console.log(books)
+    */
 }
-
-//upon the api starting, scrape books
-get_all_books()
 
 //welcome page to api
 app.get('/', (req, res) => {
@@ -69,6 +68,18 @@ app.get('/', (req, res) => {
 
 //retireve items in books[] and display as json{}
 app.get('/books', (req, res)=>{
+    book_lists.forEach(list => {
+        if (list.name === "reesewitherspoon"){
+            reese()
+        }
+        else if (list.name === "todayshow"){
+            todayshow()
+        }
+        else if (list.name === "goodmorningamerica"){
+            goodmorningamerica()
+        }
+        
+    });
     res.json(books)     
 })
 
@@ -302,7 +313,6 @@ function goodmorningamerica() {
         }).catch((err) => console.log(err))
     
 }
-
 
 app.listen(PORT, () => console.log(`Listening on port ${PORT}`))
 
