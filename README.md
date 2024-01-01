@@ -2,11 +2,11 @@ Hello, this is the API for the BList. This API aggregates books from various boo
 
 NOTE: As of 01/01/2024, the API production endpoints are a bit buggy. For now, it is recommended that you run the API locally. 
 
-API production endpoint: https://celebrity-book-clubs-api-git-main-hails-projects-2a5888c5.vercel.app
+    - API production endpoint: https://celebrity-book-clubs-api-git-main-hails-projects-2a5888c5.vercel.app
 
-API production endpoint to return books from all book lists: https://celebrity-book-clubs-api-git-main-hails-projects-2a5888c5.vercel.app/books
+    - API production endpoint to return books from all book lists: https://celebrity-book-clubs-api-git-main-hails-projects-2a5888c5.vercel.app/books
 
-API production endpoint to return books from a specific book list: https://celebrity-book-clubs-api-git-main-hails-projects-2a5888c5.vercel.app/books/{book_list}
+    - API production endpoint to return books from a specific book list: https://celebrity-book-clubs-api-git-main-hails-projects-2a5888c5.vercel.app/books/{book_list}
 
 The book_lists that are currently being scraped are:
 - reese: book club for Reese Witherspoon (https://reesesbookclub.com/article/4eRlfCOXueqPrm6ZnQpzwl)
