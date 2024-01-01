@@ -53,7 +53,7 @@ function get_all_books(){
 }
 
 //upon the api starting, scrape books
-get_all_books()
+//get_all_books()
 
 //welcome page to api
 app.get('/', (req, res) => {
@@ -61,11 +61,11 @@ app.get('/', (req, res) => {
     "Welcome to the BList. This is an API that aggregates well-known book lists. " +
     "Checkout the codebase and API details here: https://github.com/haileyhoyat/celebrity-book-clubs-api."
     res.json(welcome_message)
+    get_all_books()
 })
 
 //retireve items in books[] and display as json{}
 app.get('/books', (req, res)=>{
-    get_all_books()
     res.json(books)     
 })
 
