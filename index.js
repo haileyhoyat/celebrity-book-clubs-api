@@ -55,7 +55,10 @@ get_all_books()
 
 //welcome page to api
 app.get('/', (req, res) => {
-    res.json("Welcome to the BList. This is an API that aggregates well-known book lists.")
+    welcome_message = 
+    "Welcome to the BList. This is an API that aggregates well-known book lists. " +
+    "Checkout the codebase and API details here: https://github.com/haileyhoyat/celebrity-book-clubs-api."
+    res.json(welcome_message)
 })
 
 //retireve items in books[] and display as json{}
