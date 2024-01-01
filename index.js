@@ -1,8 +1,8 @@
 const PORT = process.env.PORT || 9000
 const express = require('express')
-const axios = require('axios')
-const cheerio = require('cheerio')
-const app = express()
+const axios = require('axios') //scraping package
+const cheerio = require('cheerio') //jQuery for node.js
+const app = express() //web framework for node.js
 
 const books = []
 
@@ -32,19 +32,23 @@ const book_clubs = [
 
 ]
 
-//retireve books from all items book_clubs[]
-book_clubs.forEach(club => {
-    if (club.name === "reesewitherspoon"){
-        reese()
-    }
-    else if (club.name === "todayshow"){
-        todayshow()
-    }
-    else if (club.name === "goodmorningamerica"){
-        goodmorningamerica()
-    }
-    
-});
+function get_all_books(){
+    //retireve books from all items book_clubs[]
+    book_clubs.forEach(club => {
+        if (club.name === "reesewitherspoon"){
+            reese()
+        }
+        else if (club.name === "todayshow"){
+            todayshow()
+        }
+        else if (club.name === "goodmorningamerica"){
+            goodmorningamerica()
+        }
+        
+    });
+}
+
+get_all_books()
 
 //welcome page to api
 app.get('/', (req, res) => {
@@ -62,7 +66,10 @@ app.get('/books/:bookclub', (req, res) => {
     const book_club_host = req.params.bookclub
     var specific_books = []
 
-    //console.log(book_club_host)
+    //check that books[] is populated
+    if (books.length === 0){
+        get_all_books
+    }
 
     if (book_club_host == "reesewitherspoon"){
         specific_books = books.filter(book => book.book_club == "reesewitherspoon")  
