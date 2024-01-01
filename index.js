@@ -37,10 +37,7 @@ const book_lists = [
 
 //scrape books from book_lists[]
 function get_all_books(){
-    reese()
-    todayshow()
-    goodmorningamerica()
-    /*
+    
     book_lists.forEach(list => {
         if (list.name === "reesewitherspoon"){
             reese()
@@ -52,7 +49,7 @@ function get_all_books(){
             goodmorningamerica()
         }
         
-    });*/
+    });
 }
 
 get_all_books()
@@ -303,8 +300,6 @@ function goodmorningamerica() {
         }).catch((err) => console.log(err))
     
 }
-
-
 
 app.listen(PORT, () => console.log(`Listening on port ${PORT}`))
 
