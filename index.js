@@ -8,7 +8,7 @@ const app = express() //web framework for node.js
 const books = []
 
 //list of book lists to scrape from
-const book_clubs = [
+const book_lists = [
     
     
     /*
@@ -33,17 +33,17 @@ const book_clubs = [
 
 ]
 
-//scrape books from book lists
+//scrape books from book_lists[]
 function get_all_books(){
     //retireve books from all items book_clubs[]
-    book_clubs.forEach(club => {
-        if (club.name === "reesewitherspoon"){
+    book_lists.forEach(list => {
+        if (list.name === "reesewitherspoon"){
             reese()
         }
-        else if (club.name === "todayshow"){
+        else if (list.name === "todayshow"){
             todayshow()
         }
-        else if (club.name === "goodmorningamerica"){
+        else if (list.name === "goodmorningamerica"){
             goodmorningamerica()
         }
         
@@ -66,10 +66,10 @@ app.get('/books', (req, res)=>{
     res.json(books)     
 })
 
-//retrieve items for a specific bookclub and display as json{}
-app.get('/books/:bookclub', (req, res) => {
+//retrieve items for a specific booklist and display as json{}
+app.get('/books/:booklist', (req, res) => {
     //console.log(req.params.bookclub)
-    const book_club_host = req.params.bookclub
+    const book_club_host = req.params.booklist
     var specific_books = []
 
     //check that books[] is populated
@@ -80,11 +80,11 @@ app.get('/books/:bookclub', (req, res) => {
     }
 
     if (book_club_host == "reesewitherspoon"){
-        specific_books = books.filter(book => book.book_club == "reesewitherspoon")  
+        specific_books = books.filter(book => book.book_list == "reesewitherspoon")  
     } else if(book_club_host == "todayshow"){
-        specific_books = books.filter(book => book.book_club == "todayshow")
+        specific_books = books.filter(book => book.book_list == "todayshow")
     } else if(book_club_host == "goodmorningamerica"){
-        specific_books = books.filter(book => book.book_club == "goodmorningamerica")
+        specific_books = books.filter(book => book.book_list == "goodmorningamerica")
     } else{
         specific_books = "Book list is not valid."
     }
@@ -128,7 +128,7 @@ function reese() {
                     
                     books.push({
                         //full_string: full_string,
-                        book_club: 'reesewitherspoon',
+                        book_list: 'reesewitherspoon',
                         title,
                         author,
                         date: {
@@ -214,7 +214,7 @@ function todayshow () {
                 //console.log(title)
                 books.push({
                     //full_string: full_string,
-                    book_club: 'todayshow',
+                    book_list: 'todayshow',
                     title,
                     author,
                     date: {
@@ -282,7 +282,7 @@ function goodmorningamerica() {
                 year = dates[i].split(" ")[1].trim()
                 books.push({
                     //full_string: full_string,
-                    book_club: 'goodmorningamerica',
+                    book_list: 'goodmorningamerica',
                     title,
                     author,
                     date: {
