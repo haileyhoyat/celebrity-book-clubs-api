@@ -36,7 +36,7 @@ const book_lists = [
 //scrape books from book_lists[]
 function get_all_books(){
     //retireve books from all items book_clubs[]
-    books = []
+    
     book_lists.forEach(list => {
         if (list.name === "reesewitherspoon"){
             reese()
