@@ -4,6 +4,8 @@ const axios = require('axios') //scraping package
 const cheerio = require('cheerio') //jQuery for node.js
 const app = express() //web framework for node.js
 
+//git commands single line: git add . &&git commit -m "fix"
+
 //list of books from all book lists
 const books = []
 
@@ -61,6 +63,7 @@ app.get('/', (req, res) => {
     "Welcome to the BList. This is an API that aggregates well-known book lists. " +
     "Checkout the codebase and API details here: https://github.com/haileyhoyat/celebrity-book-clubs-api."
     res.json(welcome_message)
+    res.on('finish',get_all_books());
 })
 
 //retireve items in books[] and display as json{}
