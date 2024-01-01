@@ -11,18 +11,7 @@ const book_clubs = [
     
     
     /*
-    {
-        name: "Belletrist",
-        address: "https://www.belletrist.com/archive"
-    },
-    {
-        name: "reesewitherspoon",
-        address: "https://reesesbookclub.com/article/4eRlfCOXueqPrm6ZnQpzwl"
-    },
-    {
-        name: "goodmorningamerica",
-        address: "https://www.goodmorningamerica.com/culture/story/shop-gma-book-club-picks-list--81520726"
-    }
+    
     
     */
     {
@@ -35,7 +24,7 @@ const book_clubs = [
     },
     
     {
-        name: "jennabushhager",
+        name: "todayshow",
         address: "https://www.today.com/shop/read-jenna-book-club-list-today-s-jenna-bush-hager-t164652"
     },
     
@@ -48,20 +37,18 @@ book_clubs.forEach(club => {
     if (club.name === "reesewitherspoon"){
         reese()
     }
-    else if (club.name === "jennabushhager"){
-        jenna()
+    else if (club.name === "todayshow"){
+        todayshow()
     }
     else if (club.name === "goodmorningamerica"){
         goodmorningamerica()
     }
-    else if (club.name === "belletrist"){
-        //
-    }
+    
 });
 
 //welcome page to api
 app.get('/', (req, res) => {
-    res.json("Welcome to the BList. This is an API that aggregates books from notable book lists.")
+    res.json("Welcome to the BList. This is an API that aggregates well-known book lists.")
 })
 
 //retireve items in books[] and display as json{}
@@ -81,8 +68,8 @@ app.get('/books/:bookclub', (req, res) => {
         specific_books = books.filter(book => book.book_club == "reesewitherspoon")  
     }
     
-    if(book_club_host == "jennabushhager"){
-        specific_books = books.filter(book => book.book_club == "jennabushhager")
+    if(book_club_host == "todayshow"){
+        specific_books = books.filter(book => book.book_club == "todayshow")
     }
 
     if(book_club_host == "goodmorningamerica"){
@@ -145,7 +132,7 @@ function reese() {
 }
 
     
-function jenna () {
+function todayshow () {
     axios.get('https://www.today.com/shop/read-jenna-book-club-list-today-s-jenna-bush-hager-t164652')
     .then((response)=>{
         const html = response.data
@@ -212,7 +199,7 @@ function jenna () {
                 //console.log(title)
                 books.push({
                     //full_string: full_string,
-                    book_club: 'jennabushhager',
+                    book_club: 'todayshow',
                     title,
                     author,
                     month: current_month,
