@@ -65,6 +65,7 @@ app.get('/', (req, res) => {
 
 //retireve items in books[] and display as json{}
 app.get('/books', (req, res)=>{
+    get_all_books()
     res.json(books)     
 })
 
