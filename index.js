@@ -36,6 +36,7 @@ const book_lists = [
 //scrape books from book_lists[]
 function get_all_books(){
     //retireve books from all items book_clubs[]
+    books = []
     book_lists.forEach(list => {
         if (list.name === "reesewitherspoon"){
             reese()
@@ -48,7 +49,7 @@ function get_all_books(){
         }
         
     });
-    console.log(books)
+    //console.log(books)
 }
 
 //upon the api starting, scrape books
@@ -64,6 +65,7 @@ app.get('/', (req, res) => {
 
 //retireve items in books[] and display as json{}
 app.get('/books', (req, res)=>{
+    get_all_books()
     res.json(books)     
 })
 
