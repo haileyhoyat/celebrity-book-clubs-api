@@ -81,16 +81,13 @@ app.get('/books/:bookclub', (req, res) => {
 
     if (book_club_host == "reesewitherspoon"){
         specific_books = books.filter(book => book.book_club == "reesewitherspoon")  
-    }
-    
-    if(book_club_host == "todayshow"){
+    } else if(book_club_host == "todayshow"){
         specific_books = books.filter(book => book.book_club == "todayshow")
-    }
-
-    if(book_club_host == "goodmorningamerica"){
+    } else if(book_club_host == "goodmorningamerica"){
         specific_books = books.filter(book => book.book_club == "goodmorningamerica")
+    } else{
+        specific_books = "Book list is not valid."
     }
-    
     res.json(specific_books)
 
 })

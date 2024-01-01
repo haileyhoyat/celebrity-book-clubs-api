@@ -7,7 +7,7 @@ The book lists that are currently being scraped are:
 
 To run this API on your own machine:
 1) clone the repo 'git clone https://github.com/haileyhoyat/celebrity-book-clubs-api.git'.
-2) Run the commands 'npm install && npm start'.
+2) Run the command 'npm install && npm start'.
 
 The API returns books from each book list in a json format. 
 
