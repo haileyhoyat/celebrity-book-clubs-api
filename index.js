@@ -48,6 +48,7 @@ function get_all_books(){
         }
         
     });
+    console.log(books)
 }
 
 //upon the api starting, scrape books
