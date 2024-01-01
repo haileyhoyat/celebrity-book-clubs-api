@@ -1,5 +1,7 @@
 Hello, this is the API for the BList. This API aggregates books from various book lists. 
 
+API endpoint: https://celebrity-book-clubs-api-git-main-hails-projects-2a5888c5.vercel.app
+
 API endpoint to return books from all book lists: https://celebrity-book-clubs-api-git-main-hails-projects-2a5888c5.vercel.app/books
 
 API endpoint to return books from a specific book list: https://celebrity-book-clubs-api-git-main-hails-projects-2a5888c5.vercel.app/books/{book_list}
