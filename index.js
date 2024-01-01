@@ -96,7 +96,7 @@ app.get('/books/:bookclub', (req, res) => {
 })
 
 
-async function reese() {
+function reese() {
     axios.get('https://reesesbookclub.com/article/4eRlfCOXueqPrm6ZnQpzwl')
         .then((response)=>{
             const html = response.data
@@ -150,7 +150,7 @@ async function reese() {
 }
 
     
-async function todayshow () {
+function todayshow () {
     axios.get('https://www.today.com/shop/read-jenna-book-club-list-today-s-jenna-bush-hager-t164652')
     .then((response)=>{
         const html = response.data
@@ -234,7 +234,7 @@ async function todayshow () {
     }).catch((err) => console.log(err))
 }
 
-async function goodmorningamerica() {
+function goodmorningamerica() {
     axios.get('https://www.goodmorningamerica.com/culture/story/shop-gma-book-club-picks-list--81520726')
         .then((response) => {
             const html = response.data
