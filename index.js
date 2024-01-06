@@ -35,18 +35,26 @@ const book_lists = [
 
 ]
 
-book_lists.forEach(list => {
-    if (list.name === "reesewitherspoon"){
-        reese()
-    }
-    else if (list.name === "todayshow"){
-        todayshow()
-    }
-    else if (list.name === "goodmorningamerica"){
-        goodmorningamerica()
-    }
+async function getbooks(){
+    await reese()
+    await todayshow()
+    await goodmorningamerica()
+}
+
+getbooks()
+
+// book_lists.forEach(list => {
+//     if (list.name === "reesewitherspoon"){
+//         reese()
+//     }
+//     else if (list.name === "todayshow"){
+//         todayshow()
+//     }
+//     else if (list.name === "goodmorningamerica"){
+//         goodmorningamerica()
+//     }
     
-});
+// });
 
 //welcome page to api
 app.get('/', (req, res) => {
@@ -120,6 +128,7 @@ function reese() {
                     books.push({
                         //full_string: full_string,
                         book_list: 'reesewitherspoon',
+                        source: 'https://reesesbookclub.com/article/4eRlfCOXueqPrm6ZnQpzwl',
                         title,
                         author,
                         date: {
@@ -206,6 +215,7 @@ function todayshow () {
                 books.push({
                     //full_string: full_string,
                     book_list: 'todayshow',
+                    source: 'https://www.today.com/shop/read-jenna-book-club-list-today-s-jenna-bush-hager-t164652',
                     title,
                     author,
                     date: {
@@ -274,6 +284,7 @@ function goodmorningamerica() {
                 books.push({
                     //full_string: full_string,
                     book_list: 'goodmorningamerica',
+                    source: 'https://www.goodmorningamerica.com/culture/story/shop-gma-book-club-picks-list--81520726',
                     title,
                     author,
                     date: {
