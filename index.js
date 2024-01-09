@@ -479,7 +479,7 @@ function nationalbookawardsfiction(){
                 //all_elements[i].split('\n')
                 books.push({
                     //full_string: full_string,
-                    book_list: 'nationabookawardsfiction',
+                    book_list: 'nationalbookawardsfiction',
                     source: 'https://en.wikipedia.org/wiki/List_of_winners_of_the_National_Book_Award',
                     title: all_elements[i].split('\n')[5],
                     author: all_elements[i].split('\n')[3],
@@ -517,7 +517,7 @@ function nationalbookawardsnonfiction(){
                 //all_elements[i].split('\n')
                 books.push({
                     //full_string: full_string,
-                    book_list: 'nationabookawardsnonfiction',
+                    book_list: 'nationalbookawardsnonfiction',
                     source: 'https://en.wikipedia.org/wiki/List_of_winners_of_the_National_Book_Award',
                     title: all_elements[i].split('\n')[5],
                     author: all_elements[i].split('\n')[3],
@@ -555,7 +555,7 @@ function nationalbookawardspoetry(){
                 //all_elements[i].split('\n')
                 books.push({
                     //full_string: full_string,
-                    book_list: 'nationabookawardspoetry',
+                    book_list: 'nationalbookawardspoetry',
                     source: 'https://en.wikipedia.org/wiki/List_of_winners_of_the_National_Book_Award',
                     title: all_elements[i].split('\n')[5],
                     author: all_elements[i].split('\n')[3],

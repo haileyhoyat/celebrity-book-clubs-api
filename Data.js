@@ -1525,7 +1525,7 @@ export const BookData =
       "description": ""
     },
     {
-      "book_list": "nationabookawardspoetry",
+      "book_list": "nationalbookawardspoetry",
       "source": "https://en.wikipedia.org/wiki/List_of_winners_of_the_National_Book_Award",
       "title": "What Work Is",
       "author": "Philip Levine",
@@ -1537,7 +1537,7 @@ export const BookData =
       "description": ""
     },
     {
-      "book_list": "nationabookawardspoetry",
+      "book_list": "nationalbookawardspoetry",
       "source": "https://en.wikipedia.org/wiki/List_of_winners_of_the_National_Book_Award",
       "title": "New and Selected Poems",
       "author": "Mary Oliver",
@@ -1549,7 +1549,7 @@ export const BookData =
       "description": ""
     },
     {
-      "book_list": "nationabookawardspoetry",
+      "book_list": "nationalbookawardspoetry",
       "source": "https://en.wikipedia.org/wiki/List_of_winners_of_the_National_Book_Award",
       "title": "Garbage",
       "author": "A. R. Ammons",
@@ -1561,7 +1561,7 @@ export const BookData =
       "description": ""
     },
     {
-      "book_list": "nationabookawardspoetry",
+      "book_list": "nationalbookawardspoetry",
       "source": "https://en.wikipedia.org/wiki/List_of_winners_of_the_National_Book_Award",
       "title": "A Worshipful Company of Fletchers",
       "author": "James Tate",
@@ -1573,7 +1573,7 @@ export const BookData =
       "description": ""
     },
     {
-      "book_list": "nationabookawardspoetry",
+      "book_list": "nationalbookawardspoetry",
       "source": "https://en.wikipedia.org/wiki/List_of_winners_of_the_National_Book_Award",
       "title": "Passing Through: The Later Poems",
       "author": "Stanley Kunitz",
@@ -1585,7 +1585,7 @@ export const BookData =
       "description": ""
     },
     {
-      "book_list": "nationabookawardspoetry",
+      "book_list": "nationalbookawardspoetry",
       "source": "https://en.wikipedia.org/wiki/List_of_winners_of_the_National_Book_Award",
       "title": "Scrambled Eggs and Whiskey",
       "author": "Hayden Carruth",
@@ -1597,7 +1597,7 @@ export const BookData =
       "description": ""
     },
     {
-      "book_list": "nationabookawardspoetry",
+      "book_list": "nationalbookawardspoetry",
       "source": "https://en.wikipedia.org/wiki/List_of_winners_of_the_National_Book_Award",
       "title": "Effort at Speech: New and Selected Poems",
       "author": "William Meredith",
@@ -1609,7 +1609,7 @@ export const BookData =
       "description": ""
     },
     {
-      "book_list": "nationabookawardspoetry",
+      "book_list": "nationalbookawardspoetry",
       "source": "https://en.wikipedia.org/wiki/List_of_winners_of_the_National_Book_Award",
       "title": "This Time: New and Selected Poems",
       "author": "Gerald Stern",
@@ -1621,7 +1621,7 @@ export const BookData =
       "description": ""
     },
     {
-      "book_list": "nationabookawardspoetry",
+      "book_list": "nationalbookawardspoetry",
       "source": "https://en.wikipedia.org/wiki/List_of_winners_of_the_National_Book_Award",
       "title": "Vice: New and Selected Poems",
       "author": "Ai",
@@ -1633,7 +1633,7 @@ export const BookData =
       "description": ""
     },
     {
-      "book_list": "nationabookawardspoetry",
+      "book_list": "nationalbookawardspoetry",
       "source": "https://en.wikipedia.org/wiki/List_of_winners_of_the_National_Book_Award",
       "title": "Blessing the Boats: New and Selected Poems 1988–2000",
       "author": "Lucille Clifton",
@@ -1645,7 +1645,7 @@ export const BookData =
       "description": ""
     },
     {
-      "book_list": "nationabookawardspoetry",
+      "book_list": "nationalbookawardspoetry",
       "source": "https://en.wikipedia.org/wiki/List_of_winners_of_the_National_Book_Award",
       "title": "Poems Seven: New and Complete Poetry",
       "author": "Alan Dugan",
@@ -1657,7 +1657,7 @@ export const BookData =
       "description": ""
     },
     {
-      "book_list": "nationabookawardspoetry",
+      "book_list": "nationalbookawardspoetry",
       "source": "https://en.wikipedia.org/wiki/List_of_winners_of_the_National_Book_Award",
       "title": "In the Next Galaxy",
       "author": "Ruth Stone",
@@ -1669,7 +1669,7 @@ export const BookData =
       "description": ""
     },
     {
-      "book_list": "nationabookawardspoetry",
+      "book_list": "nationalbookawardspoetry",
       "source": "https://en.wikipedia.org/wiki/List_of_winners_of_the_National_Book_Award",
       "title": "The Singing",
       "author": "C. K. Williams",
@@ -1681,7 +1681,7 @@ export const BookData =
       "description": ""
     },
     {
-      "book_list": "nationabookawardspoetry",
+      "book_list": "nationalbookawardspoetry",
       "source": "https://en.wikipedia.org/wiki/List_of_winners_of_the_National_Book_Award",
       "title": "Door in the Mountain: New and Collected Poems, 1965–2003",
       "author": "Jean Valentine",
@@ -1693,7 +1693,7 @@ export const BookData =
       "description": ""
     },
     {
-      "book_list": "nationabookawardspoetry",
+      "book_list": "nationalbookawardspoetry",
       "source": "https://en.wikipedia.org/wiki/List_of_winners_of_the_National_Book_Award",
       "title": "Migration: New and Selected Poems",
       "author": "W. S. Merwin",
@@ -1705,7 +1705,7 @@ export const BookData =
       "description": ""
     },
     {
-      "book_list": "nationabookawardspoetry",
+      "book_list": "nationalbookawardspoetry",
       "source": "https://en.wikipedia.org/wiki/List_of_winners_of_the_National_Book_Award",
       "title": "Splay Anthem",
       "author": "Nathaniel Mackey",
@@ -1717,7 +1717,7 @@ export const BookData =
       "description": ""
     },
     {
-      "book_list": "nationabookawardspoetry",
+      "book_list": "nationalbookawardspoetry",
       "source": "https://en.wikipedia.org/wiki/List_of_winners_of_the_National_Book_Award",
       "title": "Time and Materials: Poems, 1997–2005",
       "author": "Robert Hass",
@@ -1729,7 +1729,7 @@ export const BookData =
       "description": ""
     },
     {
-      "book_list": "nationabookawardspoetry",
+      "book_list": "nationalbookawardspoetry",
       "source": "https://en.wikipedia.org/wiki/List_of_winners_of_the_National_Book_Award",
       "title": "Fire to Fire: New and Collected Poems",
       "author": "Mark Doty",
@@ -1741,7 +1741,7 @@ export const BookData =
       "description": ""
     },
     {
-      "book_list": "nationabookawardspoetry",
+      "book_list": "nationalbookawardspoetry",
       "source": "https://en.wikipedia.org/wiki/List_of_winners_of_the_National_Book_Award",
       "title": "Transcendental Studies: A Trilogy",
       "author": "Keith Waldrop",
@@ -1753,7 +1753,7 @@ export const BookData =
       "description": ""
     },
     {
-      "book_list": "nationabookawardspoetry",
+      "book_list": "nationalbookawardspoetry",
       "source": "https://en.wikipedia.org/wiki/List_of_winners_of_the_National_Book_Award",
       "title": "Lighthead",
       "author": "Terrance Hayes",
@@ -1765,7 +1765,7 @@ export const BookData =
       "description": ""
     },
     {
-      "book_list": "nationabookawardspoetry",
+      "book_list": "nationalbookawardspoetry",
       "source": "https://en.wikipedia.org/wiki/List_of_winners_of_the_National_Book_Award",
       "title": "Head Off & Split",
       "author": "Nikky Finney",
@@ -1777,7 +1777,7 @@ export const BookData =
       "description": ""
     },
     {
-      "book_list": "nationabookawardspoetry",
+      "book_list": "nationalbookawardspoetry",
       "source": "https://en.wikipedia.org/wiki/List_of_winners_of_the_National_Book_Award",
       "title": "Bewilderment: New Poems and Translations",
       "author": "David Ferry",
@@ -1789,7 +1789,7 @@ export const BookData =
       "description": ""
     },
     {
-      "book_list": "nationabookawardspoetry",
+      "book_list": "nationalbookawardspoetry",
       "source": "https://en.wikipedia.org/wiki/List_of_winners_of_the_National_Book_Award",
       "title": "Incarnadine",
       "author": "Mary Szybist",
@@ -1801,7 +1801,7 @@ export const BookData =
       "description": ""
     },
     {
-      "book_list": "nationabookawardspoetry",
+      "book_list": "nationalbookawardspoetry",
       "source": "https://en.wikipedia.org/wiki/List_of_winners_of_the_National_Book_Award",
       "title": "Faithful and Virtuous Night",
       "author": "Louise Glück",
@@ -1813,7 +1813,7 @@ export const BookData =
       "description": ""
     },
     {
-      "book_list": "nationabookawardspoetry",
+      "book_list": "nationalbookawardspoetry",
       "source": "https://en.wikipedia.org/wiki/List_of_winners_of_the_National_Book_Award",
       "title": "Voyage of the Sable Venus",
       "author": "Robin Coste Lewis",
@@ -1825,7 +1825,7 @@ export const BookData =
       "description": ""
     },
     {
-      "book_list": "nationabookawardspoetry",
+      "book_list": "nationalbookawardspoetry",
       "source": "https://en.wikipedia.org/wiki/List_of_winners_of_the_National_Book_Award",
       "title": "The Performance of Becoming Human",
       "author": "Daniel Borzutzky",
@@ -1837,7 +1837,7 @@ export const BookData =
       "description": ""
     },
     {
-      "book_list": "nationabookawardspoetry",
+      "book_list": "nationalbookawardspoetry",
       "source": "https://en.wikipedia.org/wiki/List_of_winners_of_the_National_Book_Award",
       "title": "Half-light: Collected Poems 1965–2016",
       "author": "Frank Bidart",
@@ -1849,7 +1849,7 @@ export const BookData =
       "description": ""
     },
     {
-      "book_list": "nationabookawardspoetry",
+      "book_list": "nationalbookawardspoetry",
       "source": "https://en.wikipedia.org/wiki/List_of_winners_of_the_National_Book_Award",
       "title": "Indecency",
       "author": "Justin Phillip Reed",
@@ -1861,7 +1861,7 @@ export const BookData =
       "description": ""
     },
     {
-      "book_list": "nationabookawardspoetry",
+      "book_list": "nationalbookawardspoetry",
       "source": "https://en.wikipedia.org/wiki/List_of_winners_of_the_National_Book_Award",
       "title": "Sight Lines",
       "author": "Arthur Sze",
@@ -1873,7 +1873,7 @@ export const BookData =
       "description": ""
     },
     {
-      "book_list": "nationabookawardspoetry",
+      "book_list": "nationalbookawardspoetry",
       "source": "https://en.wikipedia.org/wiki/List_of_winners_of_the_National_Book_Award",
       "title": "DMZ Colony",
       "author": "Don Mee Choi",
@@ -1885,7 +1885,7 @@ export const BookData =
       "description": ""
     },
     {
-      "book_list": "nationabookawardspoetry",
+      "book_list": "nationalbookawardspoetry",
       "source": "https://en.wikipedia.org/wiki/List_of_winners_of_the_National_Book_Award",
       "title": "Floaters",
       "author": "Martín Espada",
@@ -1897,7 +1897,7 @@ export const BookData =
       "description": ""
     },
     {
-      "book_list": "nationabookawardspoetry",
+      "book_list": "nationalbookawardspoetry",
       "source": "https://en.wikipedia.org/wiki/List_of_winners_of_the_National_Book_Award",
       "title": "Punks: New & Selected Poems",
       "author": "John Keene",
@@ -1909,7 +1909,7 @@ export const BookData =
       "description": ""
     },
     {
-      "book_list": "nationabookawardspoetry",
+      "book_list": "nationalbookawardspoetry",
       "source": "https://en.wikipedia.org/wiki/List_of_winners_of_the_National_Book_Award",
       "title": "from unincorporated territory [åmot]",
       "author": "Craig Santos Perez",
@@ -1921,7 +1921,7 @@ export const BookData =
       "description": ""
     },
     {
-      "book_list": "nationabookawardsnonfiction",
+      "book_list": "nationalbookawardsnonfiction",
       "source": "https://en.wikipedia.org/wiki/List_of_winners_of_the_National_Book_Award",
       "title": "Andrew Jackson and the Course of American Democracy, 1833–1845",
       "author": "Robert V. Remini",
@@ -1933,7 +1933,7 @@ export const BookData =
       "description": ""
     },
     {
-      "book_list": "nationabookawardsnonfiction",
+      "book_list": "nationalbookawardsnonfiction",
       "source": "https://en.wikipedia.org/wiki/List_of_winners_of_the_National_Book_Award",
       "title": "Common Ground: A Turbulent Decade in the Lives of Three American Families",
       "author": "J. Anthony Lukas",
@@ -1945,7 +1945,7 @@ export const BookData =
       "description": ""
     },
     {
-      "book_list": "nationabookawardsnonfiction",
+      "book_list": "nationalbookawardsnonfiction",
       "source": "https://en.wikipedia.org/wiki/List_of_winners_of_the_National_Book_Award",
       "title": "Arctic Dreams: Imagination and Desire in a Northern Landscape",
       "author": "Barry Lopez",
@@ -1957,7 +1957,7 @@ export const BookData =
       "description": ""
     },
     {
-      "book_list": "nationabookawardsnonfiction",
+      "book_list": "nationalbookawardsnonfiction",
       "source": "https://en.wikipedia.org/wiki/List_of_winners_of_the_National_Book_Award",
       "title": "The Making of the Atomic Bomb",
       "author": "Richard Rhodes",
@@ -1969,7 +1969,7 @@ export const BookData =
       "description": ""
     },
     {
-      "book_list": "nationabookawardsnonfiction",
+      "book_list": "nationalbookawardsnonfiction",
       "source": "https://en.wikipedia.org/wiki/List_of_winners_of_the_National_Book_Award",
       "title": "A Bright Shining Lie: John Paul Vann and America in Vietnam",
       "author": "Neil Sheehan",
@@ -1981,7 +1981,7 @@ export const BookData =
       "description": ""
     },
     {
-      "book_list": "nationabookawardsnonfiction",
+      "book_list": "nationalbookawardsnonfiction",
       "source": "https://en.wikipedia.org/wiki/List_of_winners_of_the_National_Book_Award",
       "title": "From Beirut to Jerusalem",
       "author": "Thomas L. Friedman",
@@ -1993,7 +1993,7 @@ export const BookData =
       "description": ""
     },
     {
-      "book_list": "nationabookawardsnonfiction",
+      "book_list": "nationalbookawardsnonfiction",
       "source": "https://en.wikipedia.org/wiki/List_of_winners_of_the_National_Book_Award",
       "title": "The House of Morgan: An American Banking Dynasty and the Rise of Modern Finance",
       "author": "Ron Chernow",
@@ -2005,7 +2005,7 @@ export const BookData =
       "description": ""
     },
     {
-      "book_list": "nationabookawardsnonfiction",
+      "book_list": "nationalbookawardsnonfiction",
       "source": "https://en.wikipedia.org/wiki/List_of_winners_of_the_National_Book_Award",
       "title": "Freedom, Vol. 1: Freedom in the Making of Western Culture",
       "author": "Orlando Patterson",
@@ -2017,7 +2017,7 @@ export const BookData =
       "description": ""
     },
     {
-      "book_list": "nationabookawardsnonfiction",
+      "book_list": "nationalbookawardsnonfiction",
       "source": "https://en.wikipedia.org/wiki/List_of_winners_of_the_National_Book_Award",
       "title": "Becoming a Man: Half a Life Story",
       "author": "Paul Monette",
@@ -2029,7 +2029,7 @@ export const BookData =
       "description": ""
     },
     {
-      "book_list": "nationabookawardsnonfiction",
+      "book_list": "nationalbookawardsnonfiction",
       "source": "https://en.wikipedia.org/wiki/List_of_winners_of_the_National_Book_Award",
       "title": "United States: Essays 1952–1992",
       "author": "Gore Vidal",
@@ -2041,7 +2041,7 @@ export const BookData =
       "description": ""
     },
     {
-      "book_list": "nationabookawardsnonfiction",
+      "book_list": "nationalbookawardsnonfiction",
       "source": "https://en.wikipedia.org/wiki/List_of_winners_of_the_National_Book_Award",
       "title": "How We Die: Reflections on Life's Final Chapter",
       "author": "Sherwin B. Nuland",
@@ -2053,7 +2053,7 @@ export const BookData =
       "description": ""
     },
     {
-      "book_list": "nationabookawardsnonfiction",
+      "book_list": "nationalbookawardsnonfiction",
       "source": "https://en.wikipedia.org/wiki/List_of_winners_of_the_National_Book_Award",
       "title": "The Haunted Land: Facing Europe's Ghosts After Communism",
       "author": "Tina Rosenberg",
@@ -2065,7 +2065,7 @@ export const BookData =
       "description": ""
     },
     {
-      "book_list": "nationabookawardsnonfiction",
+      "book_list": "nationalbookawardsnonfiction",
       "source": "https://en.wikipedia.org/wiki/List_of_winners_of_the_National_Book_Award",
       "title": "An American Requiem: God, My Father, and the War that Came Between Us",
       "author": "James Carroll",
@@ -2077,7 +2077,7 @@ export const BookData =
       "description": ""
     },
     {
-      "book_list": "nationabookawardsnonfiction",
+      "book_list": "nationalbookawardsnonfiction",
       "source": "https://en.wikipedia.org/wiki/List_of_winners_of_the_National_Book_Award",
       "title": "American Sphinx: The Character of Thomas Jefferson",
       "author": "Joseph J. Ellis",
@@ -2089,7 +2089,7 @@ export const BookData =
       "description": ""
     },
     {
-      "book_list": "nationabookawardsnonfiction",
+      "book_list": "nationalbookawardsnonfiction",
       "source": "https://en.wikipedia.org/wiki/List_of_winners_of_the_National_Book_Award",
       "title": "Slaves in the Family",
       "author": "Edward Ball",
@@ -2101,7 +2101,7 @@ export const BookData =
       "description": ""
     },
     {
-      "book_list": "nationabookawardsnonfiction",
+      "book_list": "nationalbookawardsnonfiction",
       "source": "https://en.wikipedia.org/wiki/List_of_winners_of_the_National_Book_Award",
       "title": "Embracing Defeat: Japan in the Wake of World War II",
       "author": "John W. Dower",
@@ -2113,7 +2113,7 @@ export const BookData =
       "description": ""
     },
     {
-      "book_list": "nationabookawardsnonfiction",
+      "book_list": "nationalbookawardsnonfiction",
       "source": "https://en.wikipedia.org/wiki/List_of_winners_of_the_National_Book_Award",
       "title": "In the Heart of the Sea: The Tragedy of the Whaleship Essex",
       "author": "Nathaniel Philbrick",
@@ -2125,7 +2125,7 @@ export const BookData =
       "description": ""
     },
     {
-      "book_list": "nationabookawardsnonfiction",
+      "book_list": "nationalbookawardsnonfiction",
       "source": "https://en.wikipedia.org/wiki/List_of_winners_of_the_National_Book_Award",
       "title": "The Noonday Demon: An Atlas of Depression",
       "author": "Andrew Solomon",
@@ -2137,7 +2137,7 @@ export const BookData =
       "description": ""
     },
     {
-      "book_list": "nationabookawardsnonfiction",
+      "book_list": "nationalbookawardsnonfiction",
       "source": "https://en.wikipedia.org/wiki/List_of_winners_of_the_National_Book_Award",
       "title": "Master of the Senate: The Years of Lyndon Johnson",
       "author": "Robert A. Caro",
@@ -2149,7 +2149,7 @@ export const BookData =
       "description": ""
     },
     {
-      "book_list": "nationabookawardsnonfiction",
+      "book_list": "nationalbookawardsnonfiction",
       "source": "https://en.wikipedia.org/wiki/List_of_winners_of_the_National_Book_Award",
       "title": "Waiting for Snow in Havana: Confessions of a Cuban Boy",
       "author": "Carlos Eire",
@@ -2161,7 +2161,7 @@ export const BookData =
       "description": ""
     },
     {
-      "book_list": "nationabookawardsnonfiction",
+      "book_list": "nationalbookawardsnonfiction",
       "source": "https://en.wikipedia.org/wiki/List_of_winners_of_the_National_Book_Award",
       "title": "Arc of Justice: A Saga of Race, Civil Rights, and Murder in the Jazz Age",
       "author": "Kevin Boyle",
@@ -2173,7 +2173,7 @@ export const BookData =
       "description": ""
     },
     {
-      "book_list": "nationabookawardsnonfiction",
+      "book_list": "nationalbookawardsnonfiction",
       "source": "https://en.wikipedia.org/wiki/List_of_winners_of_the_National_Book_Award",
       "title": "The Year of Magical Thinking",
       "author": "Joan Didion",
@@ -2185,7 +2185,7 @@ export const BookData =
       "description": ""
     },
     {
-      "book_list": "nationabookawardsnonfiction",
+      "book_list": "nationalbookawardsnonfiction",
       "source": "https://en.wikipedia.org/wiki/List_of_winners_of_the_National_Book_Award",
       "title": "The Worst Hard Time: The Untold Story of Those Who Survived the Great American Dust Bowl",
       "author": "Timothy Egan",
@@ -2197,7 +2197,7 @@ export const BookData =
       "description": ""
     },
     {
-      "book_list": "nationabookawardsnonfiction",
+      "book_list": "nationalbookawardsnonfiction",
       "source": "https://en.wikipedia.org/wiki/List_of_winners_of_the_National_Book_Award",
       "title": "Legacy of Ashes: The History of the CIA",
       "author": "Tim Weiner",
@@ -2209,7 +2209,7 @@ export const BookData =
       "description": ""
     },
     {
-      "book_list": "nationabookawardsnonfiction",
+      "book_list": "nationalbookawardsnonfiction",
       "source": "https://en.wikipedia.org/wiki/List_of_winners_of_the_National_Book_Award",
       "title": "The Hemingses of Monticello: An American Family",
       "author": "Annette Gordon-Reed",
@@ -2221,7 +2221,7 @@ export const BookData =
       "description": ""
     },
     {
-      "book_list": "nationabookawardsnonfiction",
+      "book_list": "nationalbookawardsnonfiction",
       "source": "https://en.wikipedia.org/wiki/List_of_winners_of_the_National_Book_Award",
       "title": "The First Tycoon: The Epic Life of Cornelius Vanderbilt",
       "author": "T. J. Stiles",
@@ -2233,7 +2233,7 @@ export const BookData =
       "description": ""
     },
     {
-      "book_list": "nationabookawardsnonfiction",
+      "book_list": "nationalbookawardsnonfiction",
       "source": "https://en.wikipedia.org/wiki/List_of_winners_of_the_National_Book_Award",
       "title": "Just Kids",
       "author": "Patti Smith",
@@ -2245,7 +2245,7 @@ export const BookData =
       "description": ""
     },
     {
-      "book_list": "nationabookawardsnonfiction",
+      "book_list": "nationalbookawardsnonfiction",
       "source": "https://en.wikipedia.org/wiki/List_of_winners_of_the_National_Book_Award",
       "title": "The Swerve: How the World Became Modern",
       "author": "Stephen Greenblatt",
@@ -2257,7 +2257,7 @@ export const BookData =
       "description": ""
     },
     {
-      "book_list": "nationabookawardsnonfiction",
+      "book_list": "nationalbookawardsnonfiction",
       "source": "https://en.wikipedia.org/wiki/List_of_winners_of_the_National_Book_Award",
       "title": "Behind the Beautiful Forevers: Life, Death, and Hope in a Mumbai Undercity",
       "author": "Katherine Boo",
@@ -2269,7 +2269,7 @@ export const BookData =
       "description": ""
     },
     {
-      "book_list": "nationabookawardsnonfiction",
+      "book_list": "nationalbookawardsnonfiction",
       "source": "https://en.wikipedia.org/wiki/List_of_winners_of_the_National_Book_Award",
       "title": "The Unwinding: An Inner History of the New America",
       "author": "George Packer",
@@ -2281,7 +2281,7 @@ export const BookData =
       "description": ""
     },
     {
-      "book_list": "nationabookawardsnonfiction",
+      "book_list": "nationalbookawardsnonfiction",
       "source": "https://en.wikipedia.org/wiki/List_of_winners_of_the_National_Book_Award",
       "title": "Age of Ambition: Chasing Fortune, Truth, and Faith in the New China",
       "author": "Evan Osnos",
@@ -2293,7 +2293,7 @@ export const BookData =
       "description": ""
     },
     {
-      "book_list": "nationabookawardsnonfiction",
+      "book_list": "nationalbookawardsnonfiction",
       "source": "https://en.wikipedia.org/wiki/List_of_winners_of_the_National_Book_Award",
       "title": "Between the World and Me",
       "author": "Ta-Nehisi Coates",
@@ -2305,7 +2305,7 @@ export const BookData =
       "description": ""
     },
     {
-      "book_list": "nationabookawardsnonfiction",
+      "book_list": "nationalbookawardsnonfiction",
       "source": "https://en.wikipedia.org/wiki/List_of_winners_of_the_National_Book_Award",
       "title": "Stamped from the Beginning: The Definitive History of Racist Ideas in America",
       "author": "Ibram X. Kendi",
@@ -2317,7 +2317,7 @@ export const BookData =
       "description": ""
     },
     {
-      "book_list": "nationabookawardsnonfiction",
+      "book_list": "nationalbookawardsnonfiction",
       "source": "https://en.wikipedia.org/wiki/List_of_winners_of_the_National_Book_Award",
       "title": "The Future Is History: How Totalitarianism Reclaimed Russia",
       "author": "Masha Gessen",
@@ -2329,7 +2329,7 @@ export const BookData =
       "description": ""
     },
     {
-      "book_list": "nationabookawardsnonfiction",
+      "book_list": "nationalbookawardsnonfiction",
       "source": "https://en.wikipedia.org/wiki/List_of_winners_of_the_National_Book_Award",
       "title": "The New Negro: The Life of Alain Locke",
       "author": "Jeffrey C. Stewart",
@@ -2341,7 +2341,7 @@ export const BookData =
       "description": ""
     },
     {
-      "book_list": "nationabookawardsnonfiction",
+      "book_list": "nationalbookawardsnonfiction",
       "source": "https://en.wikipedia.org/wiki/List_of_winners_of_the_National_Book_Award",
       "title": "The Yellow House",
       "author": "Sarah M. Broom",
@@ -2353,7 +2353,7 @@ export const BookData =
       "description": ""
     },
     {
-      "book_list": "nationabookawardsnonfiction",
+      "book_list": "nationalbookawardsnonfiction",
       "source": "https://en.wikipedia.org/wiki/List_of_winners_of_the_National_Book_Award",
       "title": "The Dead Are Arising: The Life of Malcolm X",
       "author": "Les Payne and Tamara Payne",
@@ -2365,7 +2365,7 @@ export const BookData =
       "description": ""
     },
     {
-      "book_list": "nationabookawardsnonfiction",
+      "book_list": "nationalbookawardsnonfiction",
       "source": "https://en.wikipedia.org/wiki/List_of_winners_of_the_National_Book_Award",
       "title": "All That She Carried: The Journey of Ashley’s Sack, a Black Family Keepsake",
       "author": "Tiya Miles",
@@ -2377,7 +2377,7 @@ export const BookData =
       "description": ""
     },
     {
-      "book_list": "nationabookawardsnonfiction",
+      "book_list": "nationalbookawardsnonfiction",
       "source": "https://en.wikipedia.org/wiki/List_of_winners_of_the_National_Book_Award",
       "title": "South to America: A Journey Below the Mason-Dixon To Understand the Soul of a Nation",
       "author": "Imani Perry",
@@ -2389,7 +2389,7 @@ export const BookData =
       "description": ""
     },
     {
-      "book_list": "nationabookawardsnonfiction",
+      "book_list": "nationalbookawardsnonfiction",
       "source": "https://en.wikipedia.org/wiki/List_of_winners_of_the_National_Book_Award",
       "title": "The Rediscovery of America: Native Peoples and the unmaking of US history",
       "author": "Ned Blackhawk",
@@ -2402,7 +2402,7 @@ export const BookData =
     },
 
     {
-      "book_list": "nationabookawardsfiction",
+      "book_list": "nationalbookawardsfiction",
       "source": "https://en.wikipedia.org/wiki/List_of_winners_of_the_National_Book_Award",
       "title": "Victory Over Japan: A Book of Stories",
       "author": "Ellen Gilchrist",
@@ -2414,7 +2414,7 @@ export const BookData =
       "description": ""
     },
     {
-      "book_list": "nationabookawardsfiction",
+      "book_list": "nationalbookawardsfiction",
       "source": "https://en.wikipedia.org/wiki/List_of_winners_of_the_National_Book_Award",
       "title": "White Noise",
       "author": "Don DeLillo",
@@ -2426,7 +2426,7 @@ export const BookData =
       "description": ""
     },
     {
-      "book_list": "nationabookawardsfiction",
+      "book_list": "nationalbookawardsfiction",
       "source": "https://en.wikipedia.org/wiki/List_of_winners_of_the_National_Book_Award",
       "title": "World's Fair",
       "author": "E.L. Doctorow",
@@ -2438,7 +2438,7 @@ export const BookData =
       "description": ""
     },
     {
-      "book_list": "nationabookawardsfiction",
+      "book_list": "nationalbookawardsfiction",
       "source": "https://en.wikipedia.org/wiki/List_of_winners_of_the_National_Book_Award",
       "title": "Paco's Story",
       "author": "Larry Heinemann",
@@ -2450,7 +2450,7 @@ export const BookData =
       "description": ""
     },
     {
-      "book_list": "nationabookawardsfiction",
+      "book_list": "nationalbookawardsfiction",
       "source": "https://en.wikipedia.org/wiki/List_of_winners_of_the_National_Book_Award",
       "title": "Paris Trout",
       "author": "Pete Dexter",
@@ -2462,7 +2462,7 @@ export const BookData =
       "description": ""
     },
     {
-      "book_list": "nationabookawardsfiction",
+      "book_list": "nationalbookawardsfiction",
       "source": "https://en.wikipedia.org/wiki/List_of_winners_of_the_National_Book_Award",
       "title": "Spartina",
       "author": "John Casey",
@@ -2474,7 +2474,7 @@ export const BookData =
       "description": ""
     },
     {
-      "book_list": "nationabookawardsfiction",
+      "book_list": "nationalbookawardsfiction",
       "source": "https://en.wikipedia.org/wiki/List_of_winners_of_the_National_Book_Award",
       "title": "Middle Passage",
       "author": "Charles Johnson",
@@ -2486,7 +2486,7 @@ export const BookData =
       "description": ""
     },
     {
-      "book_list": "nationabookawardsfiction",
+      "book_list": "nationalbookawardsfiction",
       "source": "https://en.wikipedia.org/wiki/List_of_winners_of_the_National_Book_Award",
       "title": "Mating",
       "author": "Norman Rush",
@@ -2498,7 +2498,7 @@ export const BookData =
       "description": ""
     },
     {
-      "book_list": "nationabookawardsfiction",
+      "book_list": "nationalbookawardsfiction",
       "source": "https://en.wikipedia.org/wiki/List_of_winners_of_the_National_Book_Award",
       "title": "All the Pretty Horses",
       "author": "Cormac McCarthy",
@@ -2510,7 +2510,7 @@ export const BookData =
       "description": ""
     },
     {
-      "book_list": "nationabookawardsfiction",
+      "book_list": "nationalbookawardsfiction",
       "source": "https://en.wikipedia.org/wiki/List_of_winners_of_the_National_Book_Award",
       "title": "The Shipping News",
       "author": "E. Annie Proulx",
@@ -2522,7 +2522,7 @@ export const BookData =
       "description": ""
     },
     {
-      "book_list": "nationabookawardsfiction",
+      "book_list": "nationalbookawardsfiction",
       "source": "https://en.wikipedia.org/wiki/List_of_winners_of_the_National_Book_Award",
       "title": "A Frolic of His Own",
       "author": "William Gaddis",
@@ -2534,7 +2534,7 @@ export const BookData =
       "description": ""
     },
     {
-      "book_list": "nationabookawardsfiction",
+      "book_list": "nationalbookawardsfiction",
       "source": "https://en.wikipedia.org/wiki/List_of_winners_of_the_National_Book_Award",
       "title": "Sabbath's Theater",
       "author": "Philip Roth",
@@ -2546,7 +2546,7 @@ export const BookData =
       "description": ""
     },
     {
-      "book_list": "nationabookawardsfiction",
+      "book_list": "nationalbookawardsfiction",
       "source": "https://en.wikipedia.org/wiki/List_of_winners_of_the_National_Book_Award",
       "title": "Ship Fever and Other Stories",
       "author": "Andrea Barrett",
@@ -2558,7 +2558,7 @@ export const BookData =
       "description": ""
     },
     {
-      "book_list": "nationabookawardsfiction",
+      "book_list": "nationalbookawardsfiction",
       "source": "https://en.wikipedia.org/wiki/List_of_winners_of_the_National_Book_Award",
       "title": "Cold Mountain",
       "author": "Charles Frazier",
@@ -2570,7 +2570,7 @@ export const BookData =
       "description": ""
     },
     {
-      "book_list": "nationabookawardsfiction",
+      "book_list": "nationalbookawardsfiction",
       "source": "https://en.wikipedia.org/wiki/List_of_winners_of_the_National_Book_Award",
       "title": "Charming Billy",
       "author": "Alice McDermott",
@@ -2582,7 +2582,7 @@ export const BookData =
       "description": ""
     },
     {
-      "book_list": "nationabookawardsfiction",
+      "book_list": "nationalbookawardsfiction",
       "source": "https://en.wikipedia.org/wiki/List_of_winners_of_the_National_Book_Award",
       "title": "Waiting",
       "author": "Ha Jin",
@@ -2594,7 +2594,7 @@ export const BookData =
       "description": ""
     },
     {
-      "book_list": "nationabookawardsfiction",
+      "book_list": "nationalbookawardsfiction",
       "source": "https://en.wikipedia.org/wiki/List_of_winners_of_the_National_Book_Award",
       "title": "In America",
       "author": "Susan Sontag",
@@ -2606,7 +2606,7 @@ export const BookData =
       "description": ""
     },
     {
-      "book_list": "nationabookawardsfiction",
+      "book_list": "nationalbookawardsfiction",
       "source": "https://en.wikipedia.org/wiki/List_of_winners_of_the_National_Book_Award",
       "title": "The Corrections",
       "author": "Jonathan Franzen",
@@ -2618,7 +2618,7 @@ export const BookData =
       "description": ""
     },
     {
-      "book_list": "nationabookawardsfiction",
+      "book_list": "nationalbookawardsfiction",
       "source": "https://en.wikipedia.org/wiki/List_of_winners_of_the_National_Book_Award",
       "title": "Three Junes",
       "author": "Julia Glass",
@@ -2630,7 +2630,7 @@ export const BookData =
       "description": ""
     },
     {
-      "book_list": "nationabookawardsfiction",
+      "book_list": "nationalbookawardsfiction",
       "source": "https://en.wikipedia.org/wiki/List_of_winners_of_the_National_Book_Award",
       "title": "The Great Fire",
       "author": "Shirley Hazzard",
@@ -2642,7 +2642,7 @@ export const BookData =
       "description": ""
     },
     {
-      "book_list": "nationabookawardsfiction",
+      "book_list": "nationalbookawardsfiction",
       "source": "https://en.wikipedia.org/wiki/List_of_winners_of_the_National_Book_Award",
       "title": "The News from Paraguay",
       "author": "Lily Tuck",
@@ -2654,7 +2654,7 @@ export const BookData =
       "description": ""
     },
     {
-      "book_list": "nationabookawardsfiction",
+      "book_list": "nationalbookawardsfiction",
       "source": "https://en.wikipedia.org/wiki/List_of_winners_of_the_National_Book_Award",
       "title": "Europe Central",
       "author": "William T. Vollmann",
@@ -2666,7 +2666,7 @@ export const BookData =
       "description": ""
     },
     {
-      "book_list": "nationabookawardsfiction",
+      "book_list": "nationalbookawardsfiction",
       "source": "https://en.wikipedia.org/wiki/List_of_winners_of_the_National_Book_Award",
       "title": "The Echo Maker",
       "author": "Richard Powers",
@@ -2678,7 +2678,7 @@ export const BookData =
       "description": ""
     },
     {
-      "book_list": "nationabookawardsfiction",
+      "book_list": "nationalbookawardsfiction",
       "source": "https://en.wikipedia.org/wiki/List_of_winners_of_the_National_Book_Award",
       "title": "Tree of Smoke",
       "author": "Denis Johnson",
@@ -2690,7 +2690,7 @@ export const BookData =
       "description": ""
     },
     {
-      "book_list": "nationabookawardsfiction",
+      "book_list": "nationalbookawardsfiction",
       "source": "https://en.wikipedia.org/wiki/List_of_winners_of_the_National_Book_Award",
       "title": "Shadow Country",
       "author": "Peter Matthiessen",
@@ -2702,7 +2702,7 @@ export const BookData =
       "description": ""
     },
     {
-      "book_list": "nationabookawardsfiction",
+      "book_list": "nationalbookawardsfiction",
       "source": "https://en.wikipedia.org/wiki/List_of_winners_of_the_National_Book_Award",
       "title": "Let the Great World Spin",
       "author": "Colum McCann",
@@ -2714,7 +2714,7 @@ export const BookData =
       "description": ""
     },
     {
-      "book_list": "nationabookawardsfiction",
+      "book_list": "nationalbookawardsfiction",
       "source": "https://en.wikipedia.org/wiki/List_of_winners_of_the_National_Book_Award",
       "title": "Lord of Misrule",
       "author": "Jaimy Gordon",
@@ -2726,7 +2726,7 @@ export const BookData =
       "description": ""
     },
     {
-      "book_list": "nationabookawardsfiction",
+      "book_list": "nationalbookawardsfiction",
       "source": "https://en.wikipedia.org/wiki/List_of_winners_of_the_National_Book_Award",
       "title": "Salvage the Bones",
       "author": "Jesmyn Ward",
@@ -2738,7 +2738,7 @@ export const BookData =
       "description": ""
     },
     {
-      "book_list": "nationabookawardsfiction",
+      "book_list": "nationalbookawardsfiction",
       "source": "https://en.wikipedia.org/wiki/List_of_winners_of_the_National_Book_Award",
       "title": "The Round House",
       "author": "Louise Erdrich",
@@ -2750,7 +2750,7 @@ export const BookData =
       "description": ""
     },
     {
-      "book_list": "nationabookawardsfiction",
+      "book_list": "nationalbookawardsfiction",
       "source": "https://en.wikipedia.org/wiki/List_of_winners_of_the_National_Book_Award",
       "title": "The Good Lord Bird",
       "author": "James McBride",
@@ -2762,7 +2762,7 @@ export const BookData =
       "description": ""
     },
     {
-      "book_list": "nationabookawardsfiction",
+      "book_list": "nationalbookawardsfiction",
       "source": "https://en.wikipedia.org/wiki/List_of_winners_of_the_National_Book_Award",
       "title": "Redeployment",
       "author": "Phil Klay",
@@ -2774,7 +2774,7 @@ export const BookData =
       "description": ""
     },
     {
-      "book_list": "nationabookawardsfiction",
+      "book_list": "nationalbookawardsfiction",
       "source": "https://en.wikipedia.org/wiki/List_of_winners_of_the_National_Book_Award",
       "title": "Fortune Smiles",
       "author": "Adam Johnson",
@@ -2786,7 +2786,7 @@ export const BookData =
       "description": ""
     },
     {
-      "book_list": "nationabookawardsfiction",
+      "book_list": "nationalbookawardsfiction",
       "source": "https://en.wikipedia.org/wiki/List_of_winners_of_the_National_Book_Award",
       "title": "The Underground Railroad",
       "author": "Colson Whitehead",
@@ -2798,7 +2798,7 @@ export const BookData =
       "description": ""
     },
     {
-      "book_list": "nationabookawardsfiction",
+      "book_list": "nationalbookawardsfiction",
       "source": "https://en.wikipedia.org/wiki/List_of_winners_of_the_National_Book_Award",
       "title": "Sing, Unburied, Sing",
       "author": "Jesmyn Ward",
@@ -2810,7 +2810,7 @@ export const BookData =
       "description": ""
     },
     {
-      "book_list": "nationabookawardsfiction",
+      "book_list": "nationalbookawardsfiction",
       "source": "https://en.wikipedia.org/wiki/List_of_winners_of_the_National_Book_Award",
       "title": "The Friend",
       "author": "Sigrid Nunez",
@@ -2822,7 +2822,7 @@ export const BookData =
       "description": ""
     },
     {
-      "book_list": "nationabookawardsfiction",
+      "book_list": "nationalbookawardsfiction",
       "source": "https://en.wikipedia.org/wiki/List_of_winners_of_the_National_Book_Award",
       "title": "Trust Exercise",
       "author": "Susan Choi",
@@ -2834,7 +2834,7 @@ export const BookData =
       "description": ""
     },
     {
-      "book_list": "nationabookawardsfiction",
+      "book_list": "nationalbookawardsfiction",
       "source": "https://en.wikipedia.org/wiki/List_of_winners_of_the_National_Book_Award",
       "title": "Interior Chinatown",
       "author": "Charles Yu",
@@ -2846,7 +2846,7 @@ export const BookData =
       "description": ""
     },
     {
-      "book_list": "nationabookawardsfiction",
+      "book_list": "nationalbookawardsfiction",
       "source": "https://en.wikipedia.org/wiki/List_of_winners_of_the_National_Book_Award",
       "title": "Hell of a Book",
       "author": "Jason Mott",
@@ -2858,7 +2858,7 @@ export const BookData =
       "description": ""
     },
     {
-      "book_list": "nationabookawardsfiction",
+      "book_list": "nationalbookawardsfiction",
       "source": "https://en.wikipedia.org/wiki/List_of_winners_of_the_National_Book_Award",
       "title": "The Rabbit Hutch",
       "author": "Tess Gunty",
@@ -2870,7 +2870,7 @@ export const BookData =
       "description": ""
     },
     {
-      "book_list": "nationabookawardsfiction",
+      "book_list": "nationalbookawardsfiction",
       "source": "https://en.wikipedia.org/wiki/List_of_winners_of_the_National_Book_Award",
       "title": "Blackouts",
       "author": "Justin Torres",
