@@ -1,5 +1,7 @@
 Hello, this is the API for the BList. This API aggregates books from various book lists. 
 
+NOTE: most recent scrape for all lsits is 01-01-2024
+
 NOTE: As of 01/01/2024, the API production endpoints are a bit buggy. For now, it is recommended that you run the API locally. 
 
     - API production endpoint: https://celebrity-book-clubs-api-git-main-hails-projects-2a5888c5.vercel.app
