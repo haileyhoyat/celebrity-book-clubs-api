@@ -47,7 +47,7 @@ async function getbooks(){
     // await nationalbookawardsfiction()
     // await nationalbookawardsnonfiction()
     // await nationalbookawardspoetry()
-    await nationalbookawardsyoungpeoplesliterature()
+    // await nationalbookawardsyoungpeoplesliterature()
 }
 
 getbooks()
