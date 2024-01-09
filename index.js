@@ -376,7 +376,7 @@ function nytcombinedprintandebookfiction(){
                     })
                 }
 
-                if (response.data.results.previous_published_date != ''){
+                if (response.data.results.previous_published_date != '2023-11-26'){
                     //api has request limit. nyt suggests 12s between each request to avoid reaching limit, otherwise will get 429 error. 
                     //https://developer.nytimes.com/faq#a11
                     setTimeout(() => {
@@ -435,7 +435,7 @@ function nytcombinedprintandebooknonfiction(){
                     })
                 }
 
-                if (response.data.results.previous_published_date != ''){
+                if (response.data.results.previous_published_date != '2023-11-26'){
                     //api has request limit. nyt suggests 12s between each request to avoid reaching limit, otherwise will get 429 error. 
                     //https://developer.nytimes.com/faq#a11
                     setTimeout(() => {
