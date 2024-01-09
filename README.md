@@ -1,6 +1,6 @@
 Hello, this is the API for the BList. This API aggregates books from various book lists. 
 
-NOTE: most recent scrape for all lsits is 01-01-2024
+NOTE: most recent scrape for all book lists is 01-08-2024
 
 NOTE: As of 01/01/2024, the API production endpoints are a bit buggy. For now, it is recommended that you run the API locally. 
 
