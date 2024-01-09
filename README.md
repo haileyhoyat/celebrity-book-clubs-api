@@ -13,7 +13,7 @@ NOTE: As of 01/01/2024, the API production endpoints are a bit buggy. For now, i
     - API production endpoint for a specific book list: https://celebrity-book-clubs-api-git-main-hails-projects-2a5888c5.vercel.app/books/{book_list}
 
 The book_lists that are currently being scraped are:
-- reese: book club for Reese Witherspoon (https://reesesbookclub.com/article/4eRlfCOXueqPrm6ZnQpzwl)
+- reesewitherspoon: Book club for Reese Witherspoon (https://reesesbookclub.com/article/4eRlfCOXueqPrm6ZnQpzwl)
 - goodmorningamerica: Book club for Good Morning America (https://www.goodmorningamerica.com/culture/story/shop-gma-book-club-picks-list--81520726)
 - todayshow: Book club for The Today Show (hosted by Jenna Bush Hager) (https://www.today.com/shop/read-jenna-book-club-list-today-s-jenna-bush-hager-t164652)
 - nytcombinedprintandebookfiction: NYT best sellers fictionlist for print and ebook (October 16, 2022 - present) (https://www.nytimes.com/books/best-sellers/)
