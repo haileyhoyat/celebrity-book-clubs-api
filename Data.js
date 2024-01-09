@@ -1,6 +1,1193 @@
 export const BookData = 
 [
-
+    {
+      "book_list": "oprahwinfrey",
+      "source": "https://www.oprah.com/app/books.html",
+      "title": "Let Us Descend",
+      "author": "Jesmyn Ward",
+      "date": {
+        "month": "",
+        "year": "",
+        "day": ""
+      },
+      "description": ""
+    },
+    {
+      "book_list": "oprahwinfrey",
+      "source": "https://www.oprah.com/app/books.html",
+      "title": "Wellness",
+      "author": "Nathan Hill",
+      "date": {
+        "month": "",
+        "year": "",
+        "day": ""
+      },
+      "description": ""
+    },
+    {
+      "book_list": "oprahwinfrey",
+      "source": "https://www.oprah.com/app/books.html",
+      "title": "The Covenant of Water",
+      "author": "Abraham Verghese",
+      "date": {
+        "month": "",
+        "year": "",
+        "day": ""
+      },
+      "description": ""
+    },
+    {
+      "book_list": "oprahwinfrey",
+      "source": "https://www.oprah.com/app/books.html",
+      "title": "Hello Beautiful",
+      "author": "Ann Napolitano",
+      "date": {
+        "month": "",
+        "year": "",
+        "day": ""
+      },
+      "description": ""
+    },
+    {
+      "book_list": "oprahwinfrey",
+      "source": "https://www.oprah.com/app/books.html",
+      "title": "Bittersweet",
+      "author": "Susan Cain",
+      "date": {
+        "month": "",
+        "year": "",
+        "day": ""
+      },
+      "description": ""
+    },
+    {
+      "book_list": "oprahwinfrey",
+      "source": "https://www.oprah.com/app/books.html",
+      "title": "Demon Copperhead",
+      "author": "Barbara Kingsolver",
+      "date": {
+        "month": "",
+        "year": "",
+        "day": ""
+      },
+      "description": ""
+    },
+    {
+      "book_list": "oprahwinfrey",
+      "source": "https://www.oprah.com/app/books.html",
+      "title": "That Bird Has My Wings",
+      "author": "Jarvis Jay Masters",
+      "date": {
+        "month": "",
+        "year": "",
+        "day": ""
+      },
+      "description": ""
+    },
+    {
+      "book_list": "oprahwinfrey",
+      "source": "https://www.oprah.com/app/books.html",
+      "title": "Nightcrawling",
+      "author": "Leila Mottley",
+      "date": {
+        "month": "",
+        "year": "",
+        "day": ""
+      },
+      "description": ""
+    },
+    {
+      "book_list": "oprahwinfrey",
+      "source": "https://www.oprah.com/app/books.html",
+      "title": "Finding Me",
+      "author": "Viola Davis",
+      "date": {
+        "month": "",
+        "year": "",
+        "day": ""
+      },
+      "description": ""
+    },
+    {
+      "book_list": "oprahwinfrey",
+      "source": "https://www.oprah.com/app/books.html",
+      "title": "The Way of Integrity",
+      "author": "Martha Beck",
+      "date": {
+        "month": "",
+        "year": "",
+        "day": ""
+      },
+      "description": ""
+    },
+    {
+      "book_list": "oprahwinfrey",
+      "source": "https://www.oprah.com/app/books.html",
+      "title": "Bewilderment",
+      "author": "Richard Powers",
+      "date": {
+        "month": "",
+        "year": "",
+        "day": ""
+      },
+      "description": ""
+    },
+    {
+      "book_list": "oprahwinfrey",
+      "source": "https://www.oprah.com/app/books.html",
+      "title": "The Love Songs of W.E.B. Du Bois",
+      "author": "Honorée Fanonne Jeffers",
+      "date": {
+        "month": "",
+        "year": "",
+        "day": ""
+      },
+      "description": ""
+    },
+    {
+      "book_list": "oprahwinfrey",
+      "source": "https://www.oprah.com/app/books.html",
+      "title": "The Sweetness of Water",
+      "author": "Nathan Harris",
+      "date": {
+        "month": "",
+        "year": "",
+        "day": ""
+      },
+      "description": ""
+    },
+    {
+      "book_list": "oprahwinfrey",
+      "source": "https://www.oprah.com/app/books.html",
+      "title": "The Gilead Novels",
+      "author": "Marilynne Robinson",
+      "date": {
+        "month": "",
+        "year": "",
+        "day": ""
+      },
+      "description": ""
+    },
+    {
+      "book_list": "oprahwinfrey",
+      "source": "https://www.oprah.com/app/books.html",
+      "title": "Caste",
+      "author": "Isabel Wilkerson",
+      "date": {
+        "month": "",
+        "year": "",
+        "day": ""
+      },
+      "description": ""
+    },
+    {
+      "book_list": "oprahwinfrey",
+      "source": "https://www.oprah.com/app/books.html",
+      "title": "Deacon King Kong",
+      "author": "James McBride",
+      "date": {
+        "month": "",
+        "year": "",
+        "day": ""
+      },
+      "description": ""
+    },
+    {
+      "book_list": "oprahwinfrey",
+      "source": "https://www.oprah.com/app/books.html",
+      "title": "Hidden Valley Road: Inside the Mind of an American Family",
+      "author": "Robert Kolker",
+      "date": {
+        "month": "",
+        "year": "",
+        "day": ""
+      },
+      "description": ""
+    },
+    {
+      "book_list": "oprahwinfrey",
+      "source": "https://www.oprah.com/app/books.html",
+      "title": "American Dirt",
+      "author": "Jeanine Cummins",
+      "date": {
+        "month": "",
+        "year": "",
+        "day": ""
+      },
+      "description": ""
+    },
+    {
+      "book_list": "oprahwinfrey",
+      "source": "https://www.oprah.com/app/books.html",
+      "title": "Olive, Again",
+      "author": "Elizabeth Strout",
+      "date": {
+        "month": "",
+        "year": "",
+        "day": ""
+      },
+      "description": ""
+    },
+    {
+      "book_list": "oprahwinfrey",
+      "source": "https://www.oprah.com/app/books.html",
+      "title": "The Water Dancer",
+      "author": "Ta-Nehisi Coates",
+      "date": {
+        "month": "",
+        "year": "",
+        "day": ""
+      },
+      "description": ""
+    },
+    {
+      "book_list": "oprahwinfrey",
+      "source": "https://www.oprah.com/app/books.html",
+      "title": "Becoming",
+      "author": "Michelle Obama",
+      "date": {
+        "month": "",
+        "year": "",
+        "day": ""
+      },
+      "description": ""
+    },
+    {
+      "book_list": "oprahwinfrey",
+      "source": "https://www.oprah.com/app/books.html",
+      "title": "The Sun Does Shine",
+      "author": "Anthony Ray Hinton",
+      "date": {
+        "month": "",
+        "year": "",
+        "day": ""
+      },
+      "description": ""
+    },
+    {
+      "book_list": "oprahwinfrey",
+      "source": "https://www.oprah.com/app/books.html",
+      "title": "An American Marriage",
+      "author": "Tayari Jones",
+      "date": {
+        "month": "",
+        "year": "",
+        "day": ""
+      },
+      "description": ""
+    },
+    {
+      "book_list": "oprahwinfrey",
+      "source": "https://www.oprah.com/app/books.html",
+      "title": "Behold the Dreamers",
+      "author": "Imbolo Mbue",
+      "date": {
+        "month": "",
+        "year": "",
+        "day": ""
+      },
+      "description": ""
+    },
+    {
+      "book_list": "oprahwinfrey",
+      "source": "https://www.oprah.com/app/books.html",
+      "title": "Love Warrior",
+      "author": "Glennon Doyle Melton",
+      "date": {
+        "month": "",
+        "year": "",
+        "day": ""
+      },
+      "description": ""
+    },
+    {
+      "book_list": "oprahwinfrey",
+      "source": "https://www.oprah.com/app/books.html",
+      "title": "The Underground Railroad",
+      "author": "Colson Whitehead",
+      "date": {
+        "month": "",
+        "year": "",
+        "day": ""
+      },
+      "description": ""
+    },
+    {
+      "book_list": "oprahwinfrey",
+      "source": "https://www.oprah.com/app/books.html",
+      "title": "Ruby",
+      "author": "Cynthia Bond",
+      "date": {
+        "month": "",
+        "year": "",
+        "day": ""
+      },
+      "description": ""
+    },
+    {
+      "book_list": "oprahwinfrey",
+      "source": "https://www.oprah.com/app/books.html",
+      "title": "The Invention of Wings",
+      "author": "Sue Monk Kidd",
+      "date": {
+        "month": "",
+        "year": "",
+        "day": ""
+      },
+      "description": ""
+    },
+    {
+      "book_list": "oprahwinfrey",
+      "source": "https://www.oprah.com/app/books.html",
+      "title": "The Twelve Tribes of Hattie",
+      "author": "Ayana Mathis",
+      "date": {
+        "month": "",
+        "year": "",
+        "day": ""
+      },
+      "description": ""
+    },
+    {
+      "book_list": "oprahwinfrey",
+      "source": "https://www.oprah.com/app/books.html",
+      "title": "Wild",
+      "author": "Cheryl Strayed",
+      "date": {
+        "month": "",
+        "year": "",
+        "day": ""
+      },
+      "description": ""
+    },
+    {
+      "book_list": "oprahwinfrey",
+      "source": "https://www.oprah.com/app/books.html",
+      "title": "A Fine Balance",
+      "author": "Rohinton Mistry",
+      "date": {
+        "month": "",
+        "year": "",
+        "day": ""
+      },
+      "description": ""
+    },
+    {
+      "book_list": "oprahwinfrey",
+      "source": "https://www.oprah.com/app/books.html",
+      "title": "A Lesson Before Dying",
+      "author": "Ernest J. Gaines",
+      "date": {
+        "month": "",
+        "year": "",
+        "day": ""
+      },
+      "description": ""
+    },
+    {
+      "book_list": "oprahwinfrey",
+      "source": "https://www.oprah.com/app/books.html",
+      "title": "A Map of the World",
+      "author": "Jane Hamilton",
+      "date": {
+        "month": "",
+        "year": "",
+        "day": ""
+      },
+      "description": ""
+    },
+    {
+      "book_list": "oprahwinfrey",
+      "source": "https://www.oprah.com/app/books.html",
+      "title": "A Million Little Pieces",
+      "author": "James Frey",
+      "date": {
+        "month": "",
+        "year": "",
+        "day": ""
+      },
+      "description": ""
+    },
+    {
+      "book_list": "oprahwinfrey",
+      "source": "https://www.oprah.com/app/books.html",
+      "title": "A New Earth",
+      "author": "Eckhart Tolle",
+      "date": {
+        "month": "",
+        "year": "",
+        "day": ""
+      },
+      "description": ""
+    },
+    {
+      "book_list": "oprahwinfrey",
+      "source": "https://www.oprah.com/app/books.html",
+      "title": "A Virtuous Woman",
+      "author": "Kaye Gibbons",
+      "date": {
+        "month": "",
+        "year": "",
+        "day": ""
+      },
+      "description": ""
+    },
+    {
+      "book_list": "oprahwinfrey",
+      "source": "https://www.oprah.com/app/books.html",
+      "title": "Anna Karenina",
+      "author": "Leo Tolstoy",
+      "date": {
+        "month": "",
+        "year": "",
+        "day": ""
+      },
+      "description": ""
+    },
+    {
+      "book_list": "oprahwinfrey",
+      "source": "https://www.oprah.com/app/books.html",
+      "title": "Back Roads",
+      "author": "Tawni O'Dell",
+      "date": {
+        "month": "",
+        "year": "",
+        "day": ""
+      },
+      "description": ""
+    },
+    {
+      "book_list": "oprahwinfrey",
+      "source": "https://www.oprah.com/app/books.html",
+      "title": "Black and Blue",
+      "author": "Anna Quindlen",
+      "date": {
+        "month": "",
+        "year": "",
+        "day": ""
+      },
+      "description": ""
+    },
+    {
+      "book_list": "oprahwinfrey",
+      "source": "https://www.oprah.com/app/books.html",
+      "title": "Breath, Eyes, Memory",
+      "author": "Edwidge Danticat",
+      "date": {
+        "month": "",
+        "year": "",
+        "day": ""
+      },
+      "description": ""
+    },
+    {
+      "book_list": "oprahwinfrey",
+      "source": "https://www.oprah.com/app/books.html",
+      "title": "Cane River",
+      "author": "Lalita Tademy",
+      "date": {
+        "month": "",
+        "year": "",
+        "day": ""
+      },
+      "description": ""
+    },
+    {
+      "book_list": "oprahwinfrey",
+      "source": "https://www.oprah.com/app/books.html",
+      "title": "Cry, The Beloved Country",
+      "author": "Alan Paton",
+      "date": {
+        "month": "",
+        "year": "",
+        "day": ""
+      },
+      "description": ""
+    },
+    {
+      "book_list": "oprahwinfrey",
+      "source": "https://www.oprah.com/app/books.html",
+      "title": "Daughter of Fortune",
+      "author": "Isabel Allende",
+      "date": {
+        "month": "",
+        "year": "",
+        "day": ""
+      },
+      "description": ""
+    },
+    {
+      "book_list": "oprahwinfrey",
+      "source": "https://www.oprah.com/app/books.html",
+      "title": "Drowning Ruth",
+      "author": "Christina Schwarz",
+      "date": {
+        "month": "",
+        "year": "",
+        "day": ""
+      },
+      "description": ""
+    },
+    {
+      "book_list": "oprahwinfrey",
+      "source": "https://www.oprah.com/app/books.html",
+      "title": "East of Eden",
+      "author": "John Steinbeck",
+      "date": {
+        "month": "",
+        "year": "",
+        "day": ""
+      },
+      "description": ""
+    },
+    {
+      "book_list": "oprahwinfrey",
+      "source": "https://www.oprah.com/app/books.html",
+      "title": "Ellen Foster",
+      "author": "Kaye Gibbons",
+      "date": {
+        "month": "",
+        "year": "",
+        "day": ""
+      },
+      "description": ""
+    },
+    {
+      "book_list": "oprahwinfrey",
+      "source": "https://www.oprah.com/app/books.html",
+      "title": "Fall on Your Knees",
+      "author": "Ann-Marie MacDonald",
+      "date": {
+        "month": "",
+        "year": "",
+        "day": ""
+      },
+      "description": ""
+    },
+    {
+      "book_list": "oprahwinfrey",
+      "source": "https://www.oprah.com/app/books.html",
+      "title": "Freedom",
+      "author": "Jonathan Franzen",
+      "date": {
+        "month": "",
+        "year": "",
+        "day": ""
+      },
+      "description": ""
+    },
+    {
+      "book_list": "oprahwinfrey",
+      "source": "https://www.oprah.com/app/books.html",
+      "title": "Gap Creek",
+      "author": "Robert Morgan",
+      "date": {
+        "month": "",
+        "year": "",
+        "day": ""
+      },
+      "description": ""
+    },
+    {
+      "book_list": "oprahwinfrey",
+      "source": "https://www.oprah.com/app/books.html",
+      "title": "Here on Earth",
+      "author": "Alice Hoffman",
+      "date": {
+        "month": "",
+        "year": "",
+        "day": ""
+      },
+      "description": ""
+    },
+    {
+      "book_list": "oprahwinfrey",
+      "source": "https://www.oprah.com/app/books.html",
+      "title": "House of Sand and Fog",
+      "author": "Andre Dubus III",
+      "date": {
+        "month": "",
+        "year": "",
+        "day": ""
+      },
+      "description": ""
+    },
+    {
+      "book_list": "oprahwinfrey",
+      "source": "https://www.oprah.com/app/books.html",
+      "title": "I Know This Much Is True",
+      "author": "Wally Lamb",
+      "date": {
+        "month": "",
+        "year": "",
+        "day": ""
+      },
+      "description": ""
+    },
+    {
+      "book_list": "oprahwinfrey",
+      "source": "https://www.oprah.com/app/books.html",
+      "title": "Icy Sparks",
+      "author": "Gwyn Hyman Rubio",
+      "date": {
+        "month": "",
+        "year": "",
+        "day": ""
+      },
+      "description": ""
+    },
+    {
+      "book_list": "oprahwinfrey",
+      "source": "https://www.oprah.com/app/books.html",
+      "title": "Jewel",
+      "author": "Bret Lott",
+      "date": {
+        "month": "",
+        "year": "",
+        "day": ""
+      },
+      "description": ""
+    },
+    {
+      "book_list": "oprahwinfrey",
+      "source": "https://www.oprah.com/app/books.html",
+      "title": "Love in the Time of Cholera",
+      "author": "Gabriel García Márquez",
+      "date": {
+        "month": "",
+        "year": "",
+        "day": ""
+      },
+      "description": ""
+    },
+    {
+      "book_list": "oprahwinfrey",
+      "source": "https://www.oprah.com/app/books.html",
+      "title": "Middlesex",
+      "author": "Jeffrey Eugenides",
+      "date": {
+        "month": "",
+        "year": "",
+        "day": ""
+      },
+      "description": ""
+    },
+    {
+      "book_list": "oprahwinfrey",
+      "source": "https://www.oprah.com/app/books.html",
+      "title": "Midwives",
+      "author": "Chris Bohjalian",
+      "date": {
+        "month": "",
+        "year": "",
+        "day": ""
+      },
+      "description": ""
+    },
+    {
+      "book_list": "oprahwinfrey",
+      "source": "https://www.oprah.com/app/books.html",
+      "title": "Mother of Pearl",
+      "author": "Melinda Haynes",
+      "date": {
+        "month": "",
+        "year": "",
+        "day": ""
+      },
+      "description": ""
+    },
+    {
+      "book_list": "oprahwinfrey",
+      "source": "https://www.oprah.com/app/books.html",
+      "title": "Night",
+      "author": "Elie Wiesel",
+      "date": {
+        "month": "",
+        "year": "",
+        "day": ""
+      },
+      "description": ""
+    },
+    {
+      "book_list": "oprahwinfrey",
+      "source": "https://www.oprah.com/app/books.html",
+      "title": "One Hundred Years of Solitude",
+      "author": "Gabriel García Márquez",
+      "date": {
+        "month": "",
+        "year": "",
+        "day": ""
+      },
+      "description": ""
+    },
+    {
+      "book_list": "oprahwinfrey",
+      "source": "https://www.oprah.com/app/books.html",
+      "title": "Open House",
+      "author": "Elizabeth Berg",
+      "date": {
+        "month": "",
+        "year": "",
+        "day": ""
+      },
+      "description": ""
+    },
+    {
+      "book_list": "oprahwinfrey",
+      "source": "https://www.oprah.com/app/books.html",
+      "title": "Paradise",
+      "author": "Toni Morrison",
+      "date": {
+        "month": "",
+        "year": "",
+        "day": ""
+      },
+      "description": ""
+    },
+    {
+      "book_list": "oprahwinfrey",
+      "source": "https://www.oprah.com/app/books.html",
+      "title": "River, Cross My Heart",
+      "author": "Breena Clarke",
+      "date": {
+        "month": "",
+        "year": "",
+        "day": ""
+      },
+      "description": ""
+    },
+    {
+      "book_list": "oprahwinfrey",
+      "source": "https://www.oprah.com/app/books.html",
+      "title": "Say You're One of Them",
+      "author": "Uwem Akpan",
+      "date": {
+        "month": "",
+        "year": "",
+        "day": ""
+      },
+      "description": ""
+    },
+    {
+      "book_list": "oprahwinfrey",
+      "source": "https://www.oprah.com/app/books.html",
+      "title": "She's Come Undone",
+      "author": "Wally Lamb",
+      "date": {
+        "month": "",
+        "year": "",
+        "day": ""
+      },
+      "description": ""
+    },
+    {
+      "book_list": "oprahwinfrey",
+      "source": "https://www.oprah.com/app/books.html",
+      "title": "Song of Solomon",
+      "author": "Toni Morrison",
+      "date": {
+        "month": "",
+        "year": "",
+        "day": ""
+      },
+      "description": ""
+    },
+    {
+      "book_list": "oprahwinfrey",
+      "source": "https://www.oprah.com/app/books.html",
+      "title": "Songs in Ordinary Time",
+      "author": "Mary McGarry Morris",
+      "date": {
+        "month": "",
+        "year": "",
+        "day": ""
+      },
+      "description": ""
+    },
+    {
+      "book_list": "oprahwinfrey",
+      "source": "https://www.oprah.com/app/books.html",
+      "title": "Stolen Lives: Twenty Years in a Desert Jail",
+      "author": "Malika Oufkir",
+      "date": {
+        "month": "",
+        "year": "",
+        "day": ""
+      },
+      "description": ""
+    },
+    {
+      "book_list": "oprahwinfrey",
+      "source": "https://www.oprah.com/app/books.html",
+      "title": "Sula",
+      "author": "Toni Morrison",
+      "date": {
+        "month": "",
+        "year": "",
+        "day": ""
+      },
+      "description": ""
+    },
+    {
+      "book_list": "oprahwinfrey",
+      "source": "https://www.oprah.com/app/books.html",
+      "title": "Stones from the River",
+      "author": "Ursula Hegi",
+      "date": {
+        "month": "",
+        "year": "",
+        "day": ""
+      },
+      "description": ""
+    },
+    {
+      "book_list": "oprahwinfrey",
+      "source": "https://www.oprah.com/app/books.html",
+      "title": "Tara Road",
+      "author": "Maeve Binchy",
+      "date": {
+        "month": "",
+        "year": "",
+        "day": ""
+      },
+      "description": ""
+    },
+    {
+      "book_list": "oprahwinfrey",
+      "source": "https://www.oprah.com/app/books.html",
+      "title": "The Best Way to Play",
+      "author": "Bill Cosby",
+      "date": {
+        "month": "",
+        "year": "",
+        "day": ""
+      },
+      "description": ""
+    },
+    {
+      "book_list": "oprahwinfrey",
+      "source": "https://www.oprah.com/app/books.html",
+      "title": "The Bluest Eye",
+      "author": "Toni Morrison",
+      "date": {
+        "month": "",
+        "year": "",
+        "day": ""
+      },
+      "description": ""
+    },
+    {
+      "book_list": "oprahwinfrey",
+      "source": "https://www.oprah.com/app/books.html",
+      "title": "The Book of Ruth",
+      "author": "Jane Hamilton",
+      "date": {
+        "month": "",
+        "year": "",
+        "day": ""
+      },
+      "description": ""
+    },
+    {
+      "book_list": "oprahwinfrey",
+      "source": "https://www.oprah.com/app/books.html",
+      "title": "The Corrections",
+      "author": "Jonathan Franzen",
+      "date": {
+        "month": "",
+        "year": "",
+        "day": ""
+      },
+      "description": ""
+    },
+    {
+      "book_list": "oprahwinfrey",
+      "source": "https://www.oprah.com/app/books.html",
+      "title": "The Deep End of the Ocean",
+      "author": "Jacquelyn Mitchard",
+      "date": {
+        "month": "",
+        "year": "",
+        "day": ""
+      },
+      "description": ""
+    },
+    {
+      "book_list": "oprahwinfrey",
+      "source": "https://www.oprah.com/app/books.html",
+      "title": "The Good Earth",
+      "author": "Pearl S. Buck",
+      "date": {
+        "month": "",
+        "year": "",
+        "day": ""
+      },
+      "description": ""
+    },
+    {
+      "book_list": "oprahwinfrey",
+      "source": "https://www.oprah.com/app/books.html",
+      "title": "The Heart Is a Lonely Hunter",
+      "author": "Carson McCullers",
+      "date": {
+        "month": "",
+        "year": "",
+        "day": ""
+      },
+      "description": ""
+    },
+    {
+      "book_list": "oprahwinfrey",
+      "source": "https://www.oprah.com/app/books.html",
+      "title": "The Heart of a Woman",
+      "author": "Maya Angelou",
+      "date": {
+        "month": "",
+        "year": "",
+        "day": ""
+      },
+      "description": ""
+    },
+    {
+      "book_list": "oprahwinfrey",
+      "source": "https://www.oprah.com/app/books.html",
+      "title": "The Meanest Thing to Say",
+      "author": "Bill Cosby",
+      "date": {
+        "month": "",
+        "year": "",
+        "day": ""
+      },
+      "description": ""
+    },
+    {
+      "book_list": "oprahwinfrey",
+      "source": "https://www.oprah.com/app/books.html",
+      "title": "The Measure of a Man",
+      "author": "Sidney Poitier",
+      "date": {
+        "month": "",
+        "year": "",
+        "day": ""
+      },
+      "description": ""
+    },
+    {
+      "book_list": "oprahwinfrey",
+      "source": "https://www.oprah.com/app/books.html",
+      "title": "The Pillars of the Earth",
+      "author": "Ken Follett",
+      "date": {
+        "month": "",
+        "year": "",
+        "day": ""
+      },
+      "description": ""
+    },
+    {
+      "book_list": "oprahwinfrey",
+      "source": "https://www.oprah.com/app/books.html",
+      "title": "The Pilot's Wife",
+      "author": "Anita Shreve",
+      "date": {
+        "month": "",
+        "year": "",
+        "day": ""
+      },
+      "description": ""
+    },
+    {
+      "book_list": "oprahwinfrey",
+      "source": "https://www.oprah.com/app/books.html",
+      "title": "The Poisonwood Bible",
+      "author": "Barbara Kingsolver",
+      "date": {
+        "month": "",
+        "year": "",
+        "day": ""
+      },
+      "description": ""
+    },
+    {
+      "book_list": "oprahwinfrey",
+      "source": "https://www.oprah.com/app/books.html",
+      "title": "The Rapture of Canaan",
+      "author": "Sheri Reynolds",
+      "date": {
+        "month": "",
+        "year": "",
+        "day": ""
+      },
+      "description": ""
+    },
+    {
+      "book_list": "oprahwinfrey",
+      "source": "https://www.oprah.com/app/books.html",
+      "title": "The Reader",
+      "author": "Bernhard Schlink",
+      "date": {
+        "month": "",
+        "year": "",
+        "day": ""
+      },
+      "description": ""
+    },
+    {
+      "book_list": "oprahwinfrey",
+      "source": "https://www.oprah.com/app/books.html",
+      "title": "The Road",
+      "author": "Cormac McCarthy",
+      "date": {
+        "month": "",
+        "year": "",
+        "day": ""
+      },
+      "description": ""
+    },
+    {
+      "book_list": "oprahwinfrey",
+      "source": "https://www.oprah.com/app/books.html",
+      "title": "The Story of Edgar Sawtelle",
+      "author": "David Wroblewski",
+      "date": {
+        "month": "",
+        "year": "",
+        "day": ""
+      },
+      "description": ""
+    },
+    {
+      "book_list": "oprahwinfrey",
+      "source": "https://www.oprah.com/app/books.html",
+      "title": "The Treasure Hunt",
+      "author": "Bill Cosby",
+      "date": {
+        "month": "",
+        "year": "",
+        "day": ""
+      },
+      "description": ""
+    },
+    {
+      "book_list": "oprahwinfrey",
+      "source": "https://www.oprah.com/app/books.html",
+      "title": "Vinegar Hill",
+      "author": "A. Manette Ansay",
+      "date": {
+        "month": "",
+        "year": "",
+        "day": ""
+      },
+      "description": ""
+    },
+    {
+      "book_list": "oprahwinfrey",
+      "source": "https://www.oprah.com/app/books.html",
+      "title": "We Were the Mulvaneys",
+      "author": "Joyce Carol Oates",
+      "date": {
+        "month": "",
+        "year": "",
+        "day": ""
+      },
+      "description": ""
+    },
+    {
+      "book_list": "oprahwinfrey",
+      "source": "https://www.oprah.com/app/books.html",
+      "title": "What Looks Like Crazy on an Ordinary Day",
+      "author": "Pearl Cleage",
+      "date": {
+        "month": "",
+        "year": "",
+        "day": ""
+      },
+      "description": ""
+    },
+    {
+      "book_list": "oprahwinfrey",
+      "source": "https://www.oprah.com/app/books.html",
+      "title": "Where the Heart Is",
+      "author": "Billie Letts",
+      "date": {
+        "month": "",
+        "year": "",
+        "day": ""
+      },
+      "description": ""
+    },
+    {
+      "book_list": "oprahwinfrey",
+      "source": "https://www.oprah.com/app/books.html",
+      "title": "While I Was Gone",
+      "author": "Sue Miller",
+      "date": {
+        "month": "",
+        "year": "",
+        "day": ""
+      },
+      "description": ""
+    },
+    {
+      "book_list": "oprahwinfrey",
+      "source": "https://www.oprah.com/app/books.html",
+      "title": "White Oleander",
+      "author": "Janet Fitch",
+      "date": {
+        "month": "",
+        "year": "",
+        "day": ""
+      },
+      "description": ""
+    },
+    {
+      "book_list": "oprahwinfrey",
+      "source": "https://www.oprah.com/app/books.html",
+      "title": "As I Lay Dying",
+      "author": "William Faulkner",
+      "date": {
+        "month": "",
+        "year": "",
+        "day": ""
+      },
+      "description": ""
+    },
+    {
+      "book_list": "oprahwinfrey",
+      "source": "https://www.oprah.com/app/books.html",
+      "title": "Light in August",
+      "author": "William Faulkner",
+      "date": {
+        "month": "",
+        "year": "",
+        "day": ""
+      },
+      "description": ""
+    },
+    {
+      "book_list": "oprahwinfrey",
+      "source": "https://www.oprah.com/app/books.html",
+      "title": "The Sound and the Fury",
+      "author": "William Faulkner",
+      "date": {
+        "month": "",
+        "year": "",
+        "day": ""
+      },
+      "description": ""
+    },
+    {
+      "book_list": "oprahwinfrey",
+      "source": "https://www.oprah.com/app/books.html",
+      "title": "A Tale of Two Cities",
+      "author": "Charles Dickens",
+      "date": {
+        "month": "",
+        "year": "",
+        "day": ""
+      },
+      "description": ""
+    },
     {
       "book_list": "nationalbookawardsyoungpeoplesliterature",
       "source": "https://en.wikipedia.org/wiki/List_of_winners_of_the_National_Book_Award",

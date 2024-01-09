@@ -20,6 +20,7 @@ The book_lists that are currently being scraped are:
 - nationalbookawardsnonfiction: National Book Awards winners for the category 'Nonfiction' (https://en.wikipedia.org/wiki/List_of_winners_of_the_National_Book_Award)
 - nationalbookawardspoetry: National Book Awards winners for the category 'Poetry' (https://en.wikipedia.org/wiki/List_of_winners_of_the_National_Book_Award)
 - nationalbookawardsyoungpeoplesliterature: National Book Awards winners for the category 'Young People's Literature' (https://en.wikipedia.org/wiki/List_of_winners_of_the_National_Book_Award)
+- oprahwinfrey: Book club for Oprah Winfrey (https://www.oprah.com/book/oprahs-book-club-let-us-descend-by-jesmyn-ward?editors_pick_id=26790)
 
 To run this API locally:
 1) clone the repo 'git clone https://github.com/haileyhoyat/celebrity-book-clubs-api.git'.

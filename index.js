@@ -48,6 +48,7 @@ async function getbooks(){
     // await nationalbookawardsnonfiction()
     // await nationalbookawardspoetry()
     // await nationalbookawardsyoungpeoplesliterature()
+    await oprahwinfrey()
 }
 
 getbooks()
@@ -609,6 +610,51 @@ function nationalbookawardsyoungpeoplesliterature(){
         })
 }
 
+function oprahwinfrey(){
+    //last book https://www.oprah.com/book/before-40-great-expectations?editors_pick_id=26790
+    getnexturl('https://www.oprah.com/book/oprahs-book-club-let-us-descend-by-jesmyn-ward?editors_pick_id=26790')
+    //const response = await fetch('https://www.oprah.com/book/oprahs-book-club-let-us-descend-by-jesmyn-ward?editors_pick_id=26790')
+    function getnexturl(url){
+        axios.get(url)
+            .then((response) => {
+                const html = response.data
+                //console.log(html)
+                const $ = cheerio.load(html)
+                var title = ''
+                var author = ''
+                $('.slideshow-body-book__slide-title', html).each(function(){
+                    //console.log($(this).text())
+                    title = $(this).text()
+
+                })
+                $('.byline', html).each(function(){
+                    //console.log($(this).text())
+                    author = ($(this).text()).split('By')[1].trim()
+                })
+                books.push({
+                    //full_string: full_string,
+                    book_list: 'oprahwinfrey',
+                    source: 'https://www.oprah.com/app/books.html',
+                    title,
+                    author,
+                    date: {
+                        month:"",
+                        year: "",
+                        day: ""
+                    },
+                    description: ""
+                    
+                })
+                url = $("a.articleslide-arrow-large-right").attr("href")
+                if(url === ""){
+                    exit
+                }
+                //console.log(url)
+                getnexturl(url)
+                
+            }).catch((err) => {return})
+    }
+}
 
 app.listen(PORT, () => console.log(`Listening on port ${PORT}`))
 
