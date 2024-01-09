@@ -16,6 +16,12 @@ The book_lists that are currently being scraped are:
 - reese: book club for Reese Witherspoon (https://reesesbookclub.com/article/4eRlfCOXueqPrm6ZnQpzwl)
 - goodmorningamerica: Book club for Good Morning America (https://www.goodmorningamerica.com/culture/story/shop-gma-book-club-picks-list--81520726)
 - todayshow: Book club for The Today Show (hosted by Jenna Bush Hager) (https://www.today.com/shop/read-jenna-book-club-list-today-s-jenna-bush-hager-t164652)
+- nytcombinedprintandebookfiction: NYT best sellers fictionlist for print and ebook (October 16, 2022 - present) (https://www.nytimes.com/books/best-sellers/)
+- nytcombinedprintandebooknonfiction: NYT best sellers nonfiction list for print and ebook (October 16, 2022 - present) (https://www.nytimes.com/books/best-sellers/)
+- nationalbookawardsfiction: National Book Awards winners for the category 'Fiction' (https://en.wikipedia.org/wiki/List_of_winners_of_the_National_Book_Award)
+- nationalbookawardsnonfiction: National Book Awards winners for the category 'Nonfiction' (https://en.wikipedia.org/wiki/List_of_winners_of_the_National_Book_Award)
+- nationalbookawardspoetry: National Book Awards winners for the category 'Poetry' (https://en.wikipedia.org/wiki/List_of_winners_of_the_National_Book_Award)
+- nationalbookawardsyoungpeoplesliterature: National Book Awards winners for the category 'Young People's Literature' (https://en.wikipedia.org/wiki/List_of_winners_of_the_National_Book_Award)
 
 To run this API locally:
 1) clone the repo 'git clone https://github.com/haileyhoyat/celebrity-book-clubs-api.git'.
