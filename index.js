@@ -1,3 +1,6 @@
+/*MOST RECENT SCRAPE FOR ALL LISTS: 01-08-2024*/
+
+
 const PORT = process.env.PORT || 9000
 const express = require('express')
 const axios = require('axios') //scraping package
@@ -36,9 +39,11 @@ const book_lists = [
 ]
 
 async function getbooks(){
-    await reese()
-    await todayshow()
-    await goodmorningamerica()
+    // await reese()
+    // await todayshow()
+    // await goodmorningamerica()
+    // await nytcombinedprintandebookfiction()
+    // await nytcombinedprintandebooknonfiction()
 }
 
 getbooks()
@@ -80,15 +85,22 @@ app.get('/books/:booklist', (req, res) => {
     const book_club_host = req.params.booklist
     var specific_books = []
 
+
     if (book_club_host == "reesewitherspoon"){
         specific_books = books.filter(book => book.book_list == "reesewitherspoon")  
     } else if(book_club_host == "todayshow"){
         specific_books = books.filter(book => book.book_list == "todayshow")
     } else if(book_club_host == "goodmorningamerica"){
         specific_books = books.filter(book => book.book_list == "goodmorningamerica")
-    } else{
+    } else if(book_club_host == "nyt-combined-print-and-e-book-fiction"){
+        specific_books = books.filter(book => book.book_list == "nyt-combined-print-and-e-book-fiction")
+    } else if(book_club_host == "nyt-combined-print-and-e-book-nonfiction"){
+        specific_books = books.filter(book => book.book_list == "nyt-combined-print-and-e-book-nonfiction")
+    }
+    else {
         specific_books = "Book list is not valid."
     }
+
     res.json(specific_books)
 
 })
@@ -99,9 +111,20 @@ function reese() {
         .then((response)=>{
             const html = response.data
             const $ = cheerio.load(html)
-            //console.log(html)
-            //elements of class .span.css-h011xd contains title, author, date, month, year
-            $('p span.css-h011xd', html).each(function(){
+            // elements = []
+            // $('p.css-9n72cn', html).each(function(){
+            //     elements.push($(this).text())
+            // })
+            
+            // //remove intro paragrah and last two paragraghs
+            // elements = elements.slice(1);
+            // elements.pop()
+            // elements.pop()
+
+            // console.log(elements)
+
+
+            $('p.css-9n72cn span.css-h011xd', html).each(function(){
                 if (($(this).text() != "\"")){
 
                     //replace slanted quotation and line breaks with straight quotations
@@ -135,8 +158,10 @@ function reese() {
                         author,
                         date: {
                             month,
-                            year
-                        }
+                            year,
+                            day: ""
+                        },
+                        description: ""
                         
                     })
                     
@@ -222,8 +247,10 @@ function todayshow () {
                     author,
                     date: {
                         month,
-                        year
-                    }
+                        year,
+                        day: ""
+                    },
+                    description: ""
                 })
             }
         
@@ -278,7 +305,7 @@ function goodmorningamerica() {
                 try{
                     author = book_title_author[i].split("by")[1].trim()
                 }catch{
-                    author = "N/A"
+                    author = ""
                 }
 
                 month = dates[i].split(" ")[0].trim()
@@ -292,13 +319,140 @@ function goodmorningamerica() {
                     date: {
                         month,
                         year,
-                    }
+                        day: ""
+                    },
+                    desription: ""
                     
                 })
             }
 
         }).catch((err) => console.log(err))
     
+}
+
+//name of all nyt book lists : https://api.nytimes.com/svc/books/v3/lists/names.json?api-key=BiSm5AsbV8v8j6MZqSP8dCBWbtGuUj8z
+//all nyt book list ratings of current week :  https://api.nytimes.com/svc/books/v3/lists/full-overview.json?api-key=BiSm5AsbV8v8j6MZqSP8dCBWbtGuUj8z
+
+//scrape goes back to week of 2022-10-16
+function nytcombinedprintandebookfiction(){
+
+    NYT_API_KEY = process.env.WEATHER_API_KEY
+
+    function get_specific_week(date){
+        var months = [ "January", "February", "March", "April", "May", "June", 
+           "July", "August", "September", "October", "November", "December" ];
+
+        axios.get(`https://api.nytimes.com/svc/books/v3/lists/${date}/combined-print-and-e-book-fiction.json?api-key=${NYT_API_KEY}`)
+            .then((response) => {
+                console.log(date)
+                //the week's month
+                month = response.data.results.published_date.split("-")[1]
+                //the weeks' year
+                year = response.data.results.published_date.split("-")[0]
+                //the day
+                day = response.data.results.published_date.split("-")[2]
+
+                //get a book on this list from a a specific week
+                book = response.data.results.books
+
+                for (let i = 0; i < book.length; i++) {
+                    //console.log(book[i])
+                    title = book[i].title
+                    author = book[i].author
+                    description = book[i].description
+                    books.push({
+                        //full_string: full_string,
+                        book_list: 'nyt-combined-print-and-e-book-fiction',
+                        source: 'https://www.nytimes.com/books/best-sellers/',
+                        title,
+                        author,
+                        date: {
+                            month: months[month-1],
+                            year: year,
+                            day: day
+                        },
+                        description
+                        
+                    })
+                }
+
+                if (response.data.results.previous_published_date != ''){
+                    //api has request limit. nyt suggests 12s between each request to avoid reaching limit, otherwise will get 429 error. 
+                    //https://developer.nytimes.com/faq#a11
+                    setTimeout(() => {
+                        get_specific_week(response.data.results.previous_published_date)
+                    }, "12000");
+                }
+            
+        }).catch((err) => console.log(err))
+    }
+
+    //start at current week's list, and then work backwards
+    get_specific_week('current')
+
+}
+
+//scrape goes back to week of 2022-10-16
+function nytcombinedprintandebooknonfiction(){
+
+    NYT_API_KEY = process.env.WEATHER_API_KEY
+
+    function get_specific_week(date){
+        var months = [ "January", "February", "March", "April", "May", "June", 
+           "July", "August", "September", "October", "November", "December" ];
+
+        axios.get(`https://api.nytimes.com/svc/books/v3/lists/${date}/combined-print-and-e-book-nonfiction.json?api-key=${NYT_API_KEY}`)
+            .then((response) => {
+                console.log(date)
+                //the week's month
+                month = response.data.results.published_date.split("-")[1]
+                //the weeks' year
+                year = response.data.results.published_date.split("-")[0]
+                //the day
+                day = response.data.results.published_date.split("-")[2]
+
+                //get a book on this list from a a specific week
+                book = response.data.results.books
+
+                for (let i = 0; i < book.length; i++) {
+                    //console.log(book[i])
+                    title = book[i].title
+                    author = book[i].author
+                    description = book[i].description
+                    books.push({
+                        //full_string: full_string,
+                        book_list: 'nyt-combined-print-and-e-book-nonfiction',
+                        source: 'https://www.nytimes.com/books/best-sellers/',
+                        title,
+                        author,
+                        date: {
+                            month: months[month-1],
+                            year: year,
+                            day: day
+                        },
+                        description
+                        
+                    })
+                }
+
+                if (response.data.results.previous_published_date != ''){
+                    //api has request limit. nyt suggests 12s between each request to avoid reaching limit, otherwise will get 429 error. 
+                    //https://developer.nytimes.com/faq#a11
+                    setTimeout(() => {
+                        get_specific_week(response.data.results.previous_published_date)
+                    }, "12000");
+                }
+            
+        }).catch((err) => console.log(err))
+    }
+
+    //start at current week's list, and then work backwards
+    get_specific_week('current')
+
+}
+
+function nationalbookawardsfiction(){
+
 }
 
 app.listen(PORT, () => console.log(`Listening on port ${PORT}`))
