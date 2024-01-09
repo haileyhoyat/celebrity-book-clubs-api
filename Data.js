@@ -1,5 +1,1699 @@
 export const BookData = 
 [
+
+    {
+      "book_list": "nationalbookawardsyoungpeoplesliterature",
+      "source": "https://en.wikipedia.org/wiki/List_of_winners_of_the_National_Book_Award",
+      "title": "Parrott in the Oven: MiVida",
+      "author": "Victor Martinez",
+      "date": {
+        "month": "",
+        "year": "1996",
+        "day": ""
+      },
+      "description": ""
+    },
+    {
+      "book_list": "nationalbookawardsyoungpeoplesliterature",
+      "source": "https://en.wikipedia.org/wiki/List_of_winners_of_the_National_Book_Award",
+      "title": "Dancing on the Edge",
+      "author": "Han Nolan",
+      "date": {
+        "month": "",
+        "year": "1997",
+        "day": ""
+      },
+      "description": ""
+    },
+    {
+      "book_list": "nationalbookawardsyoungpeoplesliterature",
+      "source": "https://en.wikipedia.org/wiki/List_of_winners_of_the_National_Book_Award",
+      "title": "Holes",
+      "author": "Louis Sachar",
+      "date": {
+        "month": "",
+        "year": "1998",
+        "day": ""
+      },
+      "description": ""
+    },
+    {
+      "book_list": "nationalbookawardsyoungpeoplesliterature",
+      "source": "https://en.wikipedia.org/wiki/List_of_winners_of_the_National_Book_Award",
+      "title": "When Zachary Beaver Came to Town",
+      "author": "Kimberly Willis Holt",
+      "date": {
+        "month": "",
+        "year": "1999",
+        "day": ""
+      },
+      "description": ""
+    },
+    {
+      "book_list": "nationalbookawardsyoungpeoplesliterature",
+      "source": "https://en.wikipedia.org/wiki/List_of_winners_of_the_National_Book_Award",
+      "title": "Homeless Bird",
+      "author": "Gloria Whelan",
+      "date": {
+        "month": "",
+        "year": "2000",
+        "day": ""
+      },
+      "description": ""
+    },
+    {
+      "book_list": "nationalbookawardsyoungpeoplesliterature",
+      "source": "https://en.wikipedia.org/wiki/List_of_winners_of_the_National_Book_Award",
+      "title": "True Believer",
+      "author": "Virginia Euwer Wolff",
+      "date": {
+        "month": "",
+        "year": "2001",
+        "day": ""
+      },
+      "description": ""
+    },
+    {
+      "book_list": "nationalbookawardsyoungpeoplesliterature",
+      "source": "https://en.wikipedia.org/wiki/List_of_winners_of_the_National_Book_Award",
+      "title": "The House of the Scorpion",
+      "author": "Nancy Farmer",
+      "date": {
+        "month": "",
+        "year": "2002",
+        "day": ""
+      },
+      "description": ""
+    },
+    {
+      "book_list": "nationalbookawardsyoungpeoplesliterature",
+      "source": "https://en.wikipedia.org/wiki/List_of_winners_of_the_National_Book_Award",
+      "title": "The Canning Season",
+      "author": "Polly Horvath",
+      "date": {
+        "month": "",
+        "year": "2003",
+        "day": ""
+      },
+      "description": ""
+    },
+    {
+      "book_list": "nationalbookawardsyoungpeoplesliterature",
+      "source": "https://en.wikipedia.org/wiki/List_of_winners_of_the_National_Book_Award",
+      "title": "Godless",
+      "author": "Pete Hautman",
+      "date": {
+        "month": "",
+        "year": "2004",
+        "day": ""
+      },
+      "description": ""
+    },
+    {
+      "book_list": "nationalbookawardsyoungpeoplesliterature",
+      "source": "https://en.wikipedia.org/wiki/List_of_winners_of_the_National_Book_Award",
+      "title": "The Penderwicks: A Summer Tale of Four Sisters, Two Rabbits, and a Very Interesting Boy",
+      "author": "Jeanne Birdsall",
+      "date": {
+        "month": "",
+        "year": "2005",
+        "day": ""
+      },
+      "description": ""
+    },
+    {
+      "book_list": "nationalbookawardsyoungpeoplesliterature",
+      "source": "https://en.wikipedia.org/wiki/List_of_winners_of_the_National_Book_Award",
+      "title": "The Astonishing Life of Octavian Nothing, Traitor to the Nation, Vol. I",
+      "author": "M.T. Anderson",
+      "date": {
+        "month": "",
+        "year": "2006",
+        "day": ""
+      },
+      "description": ""
+    },
+    {
+      "book_list": "nationalbookawardsyoungpeoplesliterature",
+      "source": "https://en.wikipedia.org/wiki/List_of_winners_of_the_National_Book_Award",
+      "title": "The Absolutely True Diary of a Part-Time Indian",
+      "author": "Sherman Alexie",
+      "date": {
+        "month": "",
+        "year": "2007",
+        "day": ""
+      },
+      "description": ""
+    },
+    {
+      "book_list": "nationalbookawardsyoungpeoplesliterature",
+      "source": "https://en.wikipedia.org/wiki/List_of_winners_of_the_National_Book_Award",
+      "title": "What I Saw and How I Lied",
+      "author": "Judy Blundell",
+      "date": {
+        "month": "",
+        "year": "2008",
+        "day": ""
+      },
+      "description": ""
+    },
+    {
+      "book_list": "nationalbookawardsyoungpeoplesliterature",
+      "source": "https://en.wikipedia.org/wiki/List_of_winners_of_the_National_Book_Award",
+      "title": "Claudette Colvin: Twice Toward Justice",
+      "author": "Phillip Hoose",
+      "date": {
+        "month": "",
+        "year": "2009",
+        "day": ""
+      },
+      "description": ""
+    },
+    {
+      "book_list": "nationalbookawardsyoungpeoplesliterature",
+      "source": "https://en.wikipedia.org/wiki/List_of_winners_of_the_National_Book_Award",
+      "title": "Mockingbird",
+      "author": "Kathryn Erskine",
+      "date": {
+        "month": "",
+        "year": "2010",
+        "day": ""
+      },
+      "description": ""
+    },
+    {
+      "book_list": "nationalbookawardsyoungpeoplesliterature",
+      "source": "https://en.wikipedia.org/wiki/List_of_winners_of_the_National_Book_Award",
+      "title": "Inside Out and Back Again",
+      "author": "Thanhha Lai",
+      "date": {
+        "month": "",
+        "year": "2011",
+        "day": ""
+      },
+      "description": ""
+    },
+    {
+      "book_list": "nationalbookawardsyoungpeoplesliterature",
+      "source": "https://en.wikipedia.org/wiki/List_of_winners_of_the_National_Book_Award",
+      "title": "Goblin Secrets",
+      "author": "William Alexander",
+      "date": {
+        "month": "",
+        "year": "2012",
+        "day": ""
+      },
+      "description": ""
+    },
+    {
+      "book_list": "nationalbookawardsyoungpeoplesliterature",
+      "source": "https://en.wikipedia.org/wiki/List_of_winners_of_the_National_Book_Award",
+      "title": "The Thing About Luck",
+      "author": "Cynthia Kadohata",
+      "date": {
+        "month": "",
+        "year": "2013",
+        "day": ""
+      },
+      "description": ""
+    },
+    {
+      "book_list": "nationalbookawardsyoungpeoplesliterature",
+      "source": "https://en.wikipedia.org/wiki/List_of_winners_of_the_National_Book_Award",
+      "title": "Brown Girl Dreaming",
+      "author": "Jacqueline Woodson",
+      "date": {
+        "month": "",
+        "year": "2014",
+        "day": ""
+      },
+      "description": ""
+    },
+    {
+      "book_list": "nationalbookawardsyoungpeoplesliterature",
+      "source": "https://en.wikipedia.org/wiki/List_of_winners_of_the_National_Book_Award",
+      "title": "Challenger Deep",
+      "author": "Neal Shusterman",
+      "date": {
+        "month": "",
+        "year": "2015",
+        "day": ""
+      },
+      "description": ""
+    },
+    {
+      "book_list": "nationalbookawardsyoungpeoplesliterature",
+      "source": "https://en.wikipedia.org/wiki/List_of_winners_of_the_National_Book_Award",
+      "title": "March: Book Three",
+      "author": "John Lewis, Nate Powell, and Andrew Aydin",
+      "date": {
+        "month": "",
+        "year": "2016",
+        "day": ""
+      },
+      "description": ""
+    },
+    {
+      "book_list": "nationalbookawardsyoungpeoplesliterature",
+      "source": "https://en.wikipedia.org/wiki/List_of_winners_of_the_National_Book_Award",
+      "title": "Far from the Tree",
+      "author": "Robin Benway",
+      "date": {
+        "month": "",
+        "year": "2017",
+        "day": ""
+      },
+      "description": ""
+    },
+    {
+      "book_list": "nationalbookawardsyoungpeoplesliterature",
+      "source": "https://en.wikipedia.org/wiki/List_of_winners_of_the_National_Book_Award",
+      "title": "The Poet X",
+      "author": "Elizabeth Acevedo",
+      "date": {
+        "month": "",
+        "year": "2018",
+        "day": ""
+      },
+      "description": ""
+    },
+    {
+      "book_list": "nationalbookawardsyoungpeoplesliterature",
+      "source": "https://en.wikipedia.org/wiki/List_of_winners_of_the_National_Book_Award",
+      "title": "1919 The Year That Changed America",
+      "author": "Martin W. Sandler",
+      "date": {
+        "month": "",
+        "year": "2019",
+        "day": ""
+      },
+      "description": ""
+    },
+    {
+      "book_list": "nationalbookawardsyoungpeoplesliterature",
+      "source": "https://en.wikipedia.org/wiki/List_of_winners_of_the_National_Book_Award",
+      "title": "King and the Dragonflies",
+      "author": "Kacen Callender",
+      "date": {
+        "month": "",
+        "year": "2020",
+        "day": ""
+      },
+      "description": ""
+    },
+    {
+      "book_list": "nationalbookawardsyoungpeoplesliterature",
+      "source": "https://en.wikipedia.org/wiki/List_of_winners_of_the_National_Book_Award",
+      "title": "Last Night at the Telegraph Club",
+      "author": "Malinda Lo",
+      "date": {
+        "month": "",
+        "year": "2021",
+        "day": ""
+      },
+      "description": ""
+    },
+    {
+      "book_list": "nationalbookawardsyoungpeoplesliterature",
+      "source": "https://en.wikipedia.org/wiki/List_of_winners_of_the_National_Book_Award",
+      "title": "All My Rage",
+      "author": "Sabaa Tahir",
+      "date": {
+        "month": "",
+        "year": "2022",
+        "day": ""
+      },
+      "description": ""
+    },
+    {
+      "book_list": "nationalbookawardsyoungpeoplesliterature",
+      "source": "https://en.wikipedia.org/wiki/List_of_winners_of_the_National_Book_Award",
+      "title": "A First Time for Everything",
+      "author": "Dan Santat",
+      "date": {
+        "month": "",
+        "year": "2023",
+        "day": ""
+      },
+      "description": ""
+    },
+    {
+      "book_list": "nationabookawardspoetry",
+      "source": "https://en.wikipedia.org/wiki/List_of_winners_of_the_National_Book_Award",
+      "title": "What Work Is",
+      "author": "Philip Levine",
+      "date": {
+        "month": "",
+        "year": "1991",
+        "day": ""
+      },
+      "description": ""
+    },
+    {
+      "book_list": "nationabookawardspoetry",
+      "source": "https://en.wikipedia.org/wiki/List_of_winners_of_the_National_Book_Award",
+      "title": "New and Selected Poems",
+      "author": "Mary Oliver",
+      "date": {
+        "month": "",
+        "year": "1992",
+        "day": ""
+      },
+      "description": ""
+    },
+    {
+      "book_list": "nationabookawardspoetry",
+      "source": "https://en.wikipedia.org/wiki/List_of_winners_of_the_National_Book_Award",
+      "title": "Garbage",
+      "author": "A. R. Ammons",
+      "date": {
+        "month": "",
+        "year": "1993",
+        "day": ""
+      },
+      "description": ""
+    },
+    {
+      "book_list": "nationabookawardspoetry",
+      "source": "https://en.wikipedia.org/wiki/List_of_winners_of_the_National_Book_Award",
+      "title": "A Worshipful Company of Fletchers",
+      "author": "James Tate",
+      "date": {
+        "month": "",
+        "year": "1994",
+        "day": ""
+      },
+      "description": ""
+    },
+    {
+      "book_list": "nationabookawardspoetry",
+      "source": "https://en.wikipedia.org/wiki/List_of_winners_of_the_National_Book_Award",
+      "title": "Passing Through: The Later Poems",
+      "author": "Stanley Kunitz",
+      "date": {
+        "month": "",
+        "year": "1995",
+        "day": ""
+      },
+      "description": ""
+    },
+    {
+      "book_list": "nationabookawardspoetry",
+      "source": "https://en.wikipedia.org/wiki/List_of_winners_of_the_National_Book_Award",
+      "title": "Scrambled Eggs and Whiskey",
+      "author": "Hayden Carruth",
+      "date": {
+        "month": "",
+        "year": "1996",
+        "day": ""
+      },
+      "description": ""
+    },
+    {
+      "book_list": "nationabookawardspoetry",
+      "source": "https://en.wikipedia.org/wiki/List_of_winners_of_the_National_Book_Award",
+      "title": "Effort at Speech: New and Selected Poems",
+      "author": "William Meredith",
+      "date": {
+        "month": "",
+        "year": "1997",
+        "day": ""
+      },
+      "description": ""
+    },
+    {
+      "book_list": "nationabookawardspoetry",
+      "source": "https://en.wikipedia.org/wiki/List_of_winners_of_the_National_Book_Award",
+      "title": "This Time: New and Selected Poems",
+      "author": "Gerald Stern",
+      "date": {
+        "month": "",
+        "year": "1998",
+        "day": ""
+      },
+      "description": ""
+    },
+    {
+      "book_list": "nationabookawardspoetry",
+      "source": "https://en.wikipedia.org/wiki/List_of_winners_of_the_National_Book_Award",
+      "title": "Vice: New and Selected Poems",
+      "author": "Ai",
+      "date": {
+        "month": "",
+        "year": "1999",
+        "day": ""
+      },
+      "description": ""
+    },
+    {
+      "book_list": "nationabookawardspoetry",
+      "source": "https://en.wikipedia.org/wiki/List_of_winners_of_the_National_Book_Award",
+      "title": "Blessing the Boats: New and Selected Poems 1988–2000",
+      "author": "Lucille Clifton",
+      "date": {
+        "month": "",
+        "year": "2000",
+        "day": ""
+      },
+      "description": ""
+    },
+    {
+      "book_list": "nationabookawardspoetry",
+      "source": "https://en.wikipedia.org/wiki/List_of_winners_of_the_National_Book_Award",
+      "title": "Poems Seven: New and Complete Poetry",
+      "author": "Alan Dugan",
+      "date": {
+        "month": "",
+        "year": "2001",
+        "day": ""
+      },
+      "description": ""
+    },
+    {
+      "book_list": "nationabookawardspoetry",
+      "source": "https://en.wikipedia.org/wiki/List_of_winners_of_the_National_Book_Award",
+      "title": "In the Next Galaxy",
+      "author": "Ruth Stone",
+      "date": {
+        "month": "",
+        "year": "2002",
+        "day": ""
+      },
+      "description": ""
+    },
+    {
+      "book_list": "nationabookawardspoetry",
+      "source": "https://en.wikipedia.org/wiki/List_of_winners_of_the_National_Book_Award",
+      "title": "The Singing",
+      "author": "C. K. Williams",
+      "date": {
+        "month": "",
+        "year": "2003",
+        "day": ""
+      },
+      "description": ""
+    },
+    {
+      "book_list": "nationabookawardspoetry",
+      "source": "https://en.wikipedia.org/wiki/List_of_winners_of_the_National_Book_Award",
+      "title": "Door in the Mountain: New and Collected Poems, 1965–2003",
+      "author": "Jean Valentine",
+      "date": {
+        "month": "",
+        "year": "2004",
+        "day": ""
+      },
+      "description": ""
+    },
+    {
+      "book_list": "nationabookawardspoetry",
+      "source": "https://en.wikipedia.org/wiki/List_of_winners_of_the_National_Book_Award",
+      "title": "Migration: New and Selected Poems",
+      "author": "W. S. Merwin",
+      "date": {
+        "month": "",
+        "year": "2005",
+        "day": ""
+      },
+      "description": ""
+    },
+    {
+      "book_list": "nationabookawardspoetry",
+      "source": "https://en.wikipedia.org/wiki/List_of_winners_of_the_National_Book_Award",
+      "title": "Splay Anthem",
+      "author": "Nathaniel Mackey",
+      "date": {
+        "month": "",
+        "year": "2006",
+        "day": ""
+      },
+      "description": ""
+    },
+    {
+      "book_list": "nationabookawardspoetry",
+      "source": "https://en.wikipedia.org/wiki/List_of_winners_of_the_National_Book_Award",
+      "title": "Time and Materials: Poems, 1997–2005",
+      "author": "Robert Hass",
+      "date": {
+        "month": "",
+        "year": "2007",
+        "day": ""
+      },
+      "description": ""
+    },
+    {
+      "book_list": "nationabookawardspoetry",
+      "source": "https://en.wikipedia.org/wiki/List_of_winners_of_the_National_Book_Award",
+      "title": "Fire to Fire: New and Collected Poems",
+      "author": "Mark Doty",
+      "date": {
+        "month": "",
+        "year": "2008",
+        "day": ""
+      },
+      "description": ""
+    },
+    {
+      "book_list": "nationabookawardspoetry",
+      "source": "https://en.wikipedia.org/wiki/List_of_winners_of_the_National_Book_Award",
+      "title": "Transcendental Studies: A Trilogy",
+      "author": "Keith Waldrop",
+      "date": {
+        "month": "",
+        "year": "2009",
+        "day": ""
+      },
+      "description": ""
+    },
+    {
+      "book_list": "nationabookawardspoetry",
+      "source": "https://en.wikipedia.org/wiki/List_of_winners_of_the_National_Book_Award",
+      "title": "Lighthead",
+      "author": "Terrance Hayes",
+      "date": {
+        "month": "",
+        "year": "2010",
+        "day": ""
+      },
+      "description": ""
+    },
+    {
+      "book_list": "nationabookawardspoetry",
+      "source": "https://en.wikipedia.org/wiki/List_of_winners_of_the_National_Book_Award",
+      "title": "Head Off & Split",
+      "author": "Nikky Finney",
+      "date": {
+        "month": "",
+        "year": "2011",
+        "day": ""
+      },
+      "description": ""
+    },
+    {
+      "book_list": "nationabookawardspoetry",
+      "source": "https://en.wikipedia.org/wiki/List_of_winners_of_the_National_Book_Award",
+      "title": "Bewilderment: New Poems and Translations",
+      "author": "David Ferry",
+      "date": {
+        "month": "",
+        "year": "2012",
+        "day": ""
+      },
+      "description": ""
+    },
+    {
+      "book_list": "nationabookawardspoetry",
+      "source": "https://en.wikipedia.org/wiki/List_of_winners_of_the_National_Book_Award",
+      "title": "Incarnadine",
+      "author": "Mary Szybist",
+      "date": {
+        "month": "",
+        "year": "2013",
+        "day": ""
+      },
+      "description": ""
+    },
+    {
+      "book_list": "nationabookawardspoetry",
+      "source": "https://en.wikipedia.org/wiki/List_of_winners_of_the_National_Book_Award",
+      "title": "Faithful and Virtuous Night",
+      "author": "Louise Glück",
+      "date": {
+        "month": "",
+        "year": "2014",
+        "day": ""
+      },
+      "description": ""
+    },
+    {
+      "book_list": "nationabookawardspoetry",
+      "source": "https://en.wikipedia.org/wiki/List_of_winners_of_the_National_Book_Award",
+      "title": "Voyage of the Sable Venus",
+      "author": "Robin Coste Lewis",
+      "date": {
+        "month": "",
+        "year": "2015",
+        "day": ""
+      },
+      "description": ""
+    },
+    {
+      "book_list": "nationabookawardspoetry",
+      "source": "https://en.wikipedia.org/wiki/List_of_winners_of_the_National_Book_Award",
+      "title": "The Performance of Becoming Human",
+      "author": "Daniel Borzutzky",
+      "date": {
+        "month": "",
+        "year": "2016",
+        "day": ""
+      },
+      "description": ""
+    },
+    {
+      "book_list": "nationabookawardspoetry",
+      "source": "https://en.wikipedia.org/wiki/List_of_winners_of_the_National_Book_Award",
+      "title": "Half-light: Collected Poems 1965–2016",
+      "author": "Frank Bidart",
+      "date": {
+        "month": "",
+        "year": "2017",
+        "day": ""
+      },
+      "description": ""
+    },
+    {
+      "book_list": "nationabookawardspoetry",
+      "source": "https://en.wikipedia.org/wiki/List_of_winners_of_the_National_Book_Award",
+      "title": "Indecency",
+      "author": "Justin Phillip Reed",
+      "date": {
+        "month": "",
+        "year": "2018",
+        "day": ""
+      },
+      "description": ""
+    },
+    {
+      "book_list": "nationabookawardspoetry",
+      "source": "https://en.wikipedia.org/wiki/List_of_winners_of_the_National_Book_Award",
+      "title": "Sight Lines",
+      "author": "Arthur Sze",
+      "date": {
+        "month": "",
+        "year": "2019",
+        "day": ""
+      },
+      "description": ""
+    },
+    {
+      "book_list": "nationabookawardspoetry",
+      "source": "https://en.wikipedia.org/wiki/List_of_winners_of_the_National_Book_Award",
+      "title": "DMZ Colony",
+      "author": "Don Mee Choi",
+      "date": {
+        "month": "",
+        "year": "2020",
+        "day": ""
+      },
+      "description": ""
+    },
+    {
+      "book_list": "nationabookawardspoetry",
+      "source": "https://en.wikipedia.org/wiki/List_of_winners_of_the_National_Book_Award",
+      "title": "Floaters",
+      "author": "Martín Espada",
+      "date": {
+        "month": "",
+        "year": "2021",
+        "day": ""
+      },
+      "description": ""
+    },
+    {
+      "book_list": "nationabookawardspoetry",
+      "source": "https://en.wikipedia.org/wiki/List_of_winners_of_the_National_Book_Award",
+      "title": "Punks: New & Selected Poems",
+      "author": "John Keene",
+      "date": {
+        "month": "",
+        "year": "2022",
+        "day": ""
+      },
+      "description": ""
+    },
+    {
+      "book_list": "nationabookawardspoetry",
+      "source": "https://en.wikipedia.org/wiki/List_of_winners_of_the_National_Book_Award",
+      "title": "from unincorporated territory [åmot]",
+      "author": "Craig Santos Perez",
+      "date": {
+        "month": "",
+        "year": "2023",
+        "day": ""
+      },
+      "description": ""
+    },
+    {
+      "book_list": "nationabookawardsnonfiction",
+      "source": "https://en.wikipedia.org/wiki/List_of_winners_of_the_National_Book_Award",
+      "title": "Andrew Jackson and the Course of American Democracy, 1833–1845",
+      "author": "Robert V. Remini",
+      "date": {
+        "month": "",
+        "year": "1984",
+        "day": ""
+      },
+      "description": ""
+    },
+    {
+      "book_list": "nationabookawardsnonfiction",
+      "source": "https://en.wikipedia.org/wiki/List_of_winners_of_the_National_Book_Award",
+      "title": "Common Ground: A Turbulent Decade in the Lives of Three American Families",
+      "author": "J. Anthony Lukas",
+      "date": {
+        "month": "",
+        "year": "1985",
+        "day": ""
+      },
+      "description": ""
+    },
+    {
+      "book_list": "nationabookawardsnonfiction",
+      "source": "https://en.wikipedia.org/wiki/List_of_winners_of_the_National_Book_Award",
+      "title": "Arctic Dreams: Imagination and Desire in a Northern Landscape",
+      "author": "Barry Lopez",
+      "date": {
+        "month": "",
+        "year": "1986",
+        "day": ""
+      },
+      "description": ""
+    },
+    {
+      "book_list": "nationabookawardsnonfiction",
+      "source": "https://en.wikipedia.org/wiki/List_of_winners_of_the_National_Book_Award",
+      "title": "The Making of the Atomic Bomb",
+      "author": "Richard Rhodes",
+      "date": {
+        "month": "",
+        "year": "1987",
+        "day": ""
+      },
+      "description": ""
+    },
+    {
+      "book_list": "nationabookawardsnonfiction",
+      "source": "https://en.wikipedia.org/wiki/List_of_winners_of_the_National_Book_Award",
+      "title": "A Bright Shining Lie: John Paul Vann and America in Vietnam",
+      "author": "Neil Sheehan",
+      "date": {
+        "month": "",
+        "year": "1988",
+        "day": ""
+      },
+      "description": ""
+    },
+    {
+      "book_list": "nationabookawardsnonfiction",
+      "source": "https://en.wikipedia.org/wiki/List_of_winners_of_the_National_Book_Award",
+      "title": "From Beirut to Jerusalem",
+      "author": "Thomas L. Friedman",
+      "date": {
+        "month": "",
+        "year": "1989",
+        "day": ""
+      },
+      "description": ""
+    },
+    {
+      "book_list": "nationabookawardsnonfiction",
+      "source": "https://en.wikipedia.org/wiki/List_of_winners_of_the_National_Book_Award",
+      "title": "The House of Morgan: An American Banking Dynasty and the Rise of Modern Finance",
+      "author": "Ron Chernow",
+      "date": {
+        "month": "",
+        "year": "1990",
+        "day": ""
+      },
+      "description": ""
+    },
+    {
+      "book_list": "nationabookawardsnonfiction",
+      "source": "https://en.wikipedia.org/wiki/List_of_winners_of_the_National_Book_Award",
+      "title": "Freedom, Vol. 1: Freedom in the Making of Western Culture",
+      "author": "Orlando Patterson",
+      "date": {
+        "month": "",
+        "year": "1991",
+        "day": ""
+      },
+      "description": ""
+    },
+    {
+      "book_list": "nationabookawardsnonfiction",
+      "source": "https://en.wikipedia.org/wiki/List_of_winners_of_the_National_Book_Award",
+      "title": "Becoming a Man: Half a Life Story",
+      "author": "Paul Monette",
+      "date": {
+        "month": "",
+        "year": "1992",
+        "day": ""
+      },
+      "description": ""
+    },
+    {
+      "book_list": "nationabookawardsnonfiction",
+      "source": "https://en.wikipedia.org/wiki/List_of_winners_of_the_National_Book_Award",
+      "title": "United States: Essays 1952–1992",
+      "author": "Gore Vidal",
+      "date": {
+        "month": "",
+        "year": "1993",
+        "day": ""
+      },
+      "description": ""
+    },
+    {
+      "book_list": "nationabookawardsnonfiction",
+      "source": "https://en.wikipedia.org/wiki/List_of_winners_of_the_National_Book_Award",
+      "title": "How We Die: Reflections on Life's Final Chapter",
+      "author": "Sherwin B. Nuland",
+      "date": {
+        "month": "",
+        "year": "1994",
+        "day": ""
+      },
+      "description": ""
+    },
+    {
+      "book_list": "nationabookawardsnonfiction",
+      "source": "https://en.wikipedia.org/wiki/List_of_winners_of_the_National_Book_Award",
+      "title": "The Haunted Land: Facing Europe's Ghosts After Communism",
+      "author": "Tina Rosenberg",
+      "date": {
+        "month": "",
+        "year": "1995",
+        "day": ""
+      },
+      "description": ""
+    },
+    {
+      "book_list": "nationabookawardsnonfiction",
+      "source": "https://en.wikipedia.org/wiki/List_of_winners_of_the_National_Book_Award",
+      "title": "An American Requiem: God, My Father, and the War that Came Between Us",
+      "author": "James Carroll",
+      "date": {
+        "month": "",
+        "year": "1996",
+        "day": ""
+      },
+      "description": ""
+    },
+    {
+      "book_list": "nationabookawardsnonfiction",
+      "source": "https://en.wikipedia.org/wiki/List_of_winners_of_the_National_Book_Award",
+      "title": "American Sphinx: The Character of Thomas Jefferson",
+      "author": "Joseph J. Ellis",
+      "date": {
+        "month": "",
+        "year": "1997",
+        "day": ""
+      },
+      "description": ""
+    },
+    {
+      "book_list": "nationabookawardsnonfiction",
+      "source": "https://en.wikipedia.org/wiki/List_of_winners_of_the_National_Book_Award",
+      "title": "Slaves in the Family",
+      "author": "Edward Ball",
+      "date": {
+        "month": "",
+        "year": "1998",
+        "day": ""
+      },
+      "description": ""
+    },
+    {
+      "book_list": "nationabookawardsnonfiction",
+      "source": "https://en.wikipedia.org/wiki/List_of_winners_of_the_National_Book_Award",
+      "title": "Embracing Defeat: Japan in the Wake of World War II",
+      "author": "John W. Dower",
+      "date": {
+        "month": "",
+        "year": "1999",
+        "day": ""
+      },
+      "description": ""
+    },
+    {
+      "book_list": "nationabookawardsnonfiction",
+      "source": "https://en.wikipedia.org/wiki/List_of_winners_of_the_National_Book_Award",
+      "title": "In the Heart of the Sea: The Tragedy of the Whaleship Essex",
+      "author": "Nathaniel Philbrick",
+      "date": {
+        "month": "",
+        "year": "2000",
+        "day": ""
+      },
+      "description": ""
+    },
+    {
+      "book_list": "nationabookawardsnonfiction",
+      "source": "https://en.wikipedia.org/wiki/List_of_winners_of_the_National_Book_Award",
+      "title": "The Noonday Demon: An Atlas of Depression",
+      "author": "Andrew Solomon",
+      "date": {
+        "month": "",
+        "year": "2001",
+        "day": ""
+      },
+      "description": ""
+    },
+    {
+      "book_list": "nationabookawardsnonfiction",
+      "source": "https://en.wikipedia.org/wiki/List_of_winners_of_the_National_Book_Award",
+      "title": "Master of the Senate: The Years of Lyndon Johnson",
+      "author": "Robert A. Caro",
+      "date": {
+        "month": "",
+        "year": "2002",
+        "day": ""
+      },
+      "description": ""
+    },
+    {
+      "book_list": "nationabookawardsnonfiction",
+      "source": "https://en.wikipedia.org/wiki/List_of_winners_of_the_National_Book_Award",
+      "title": "Waiting for Snow in Havana: Confessions of a Cuban Boy",
+      "author": "Carlos Eire",
+      "date": {
+        "month": "",
+        "year": "2003",
+        "day": ""
+      },
+      "description": ""
+    },
+    {
+      "book_list": "nationabookawardsnonfiction",
+      "source": "https://en.wikipedia.org/wiki/List_of_winners_of_the_National_Book_Award",
+      "title": "Arc of Justice: A Saga of Race, Civil Rights, and Murder in the Jazz Age",
+      "author": "Kevin Boyle",
+      "date": {
+        "month": "",
+        "year": "2004",
+        "day": ""
+      },
+      "description": ""
+    },
+    {
+      "book_list": "nationabookawardsnonfiction",
+      "source": "https://en.wikipedia.org/wiki/List_of_winners_of_the_National_Book_Award",
+      "title": "The Year of Magical Thinking",
+      "author": "Joan Didion",
+      "date": {
+        "month": "",
+        "year": "2005",
+        "day": ""
+      },
+      "description": ""
+    },
+    {
+      "book_list": "nationabookawardsnonfiction",
+      "source": "https://en.wikipedia.org/wiki/List_of_winners_of_the_National_Book_Award",
+      "title": "The Worst Hard Time: The Untold Story of Those Who Survived the Great American Dust Bowl",
+      "author": "Timothy Egan",
+      "date": {
+        "month": "",
+        "year": "2006",
+        "day": ""
+      },
+      "description": ""
+    },
+    {
+      "book_list": "nationabookawardsnonfiction",
+      "source": "https://en.wikipedia.org/wiki/List_of_winners_of_the_National_Book_Award",
+      "title": "Legacy of Ashes: The History of the CIA",
+      "author": "Tim Weiner",
+      "date": {
+        "month": "",
+        "year": "2007",
+        "day": ""
+      },
+      "description": ""
+    },
+    {
+      "book_list": "nationabookawardsnonfiction",
+      "source": "https://en.wikipedia.org/wiki/List_of_winners_of_the_National_Book_Award",
+      "title": "The Hemingses of Monticello: An American Family",
+      "author": "Annette Gordon-Reed",
+      "date": {
+        "month": "",
+        "year": "2008",
+        "day": ""
+      },
+      "description": ""
+    },
+    {
+      "book_list": "nationabookawardsnonfiction",
+      "source": "https://en.wikipedia.org/wiki/List_of_winners_of_the_National_Book_Award",
+      "title": "The First Tycoon: The Epic Life of Cornelius Vanderbilt",
+      "author": "T. J. Stiles",
+      "date": {
+        "month": "",
+        "year": "2009",
+        "day": ""
+      },
+      "description": ""
+    },
+    {
+      "book_list": "nationabookawardsnonfiction",
+      "source": "https://en.wikipedia.org/wiki/List_of_winners_of_the_National_Book_Award",
+      "title": "Just Kids",
+      "author": "Patti Smith",
+      "date": {
+        "month": "",
+        "year": "2010",
+        "day": ""
+      },
+      "description": ""
+    },
+    {
+      "book_list": "nationabookawardsnonfiction",
+      "source": "https://en.wikipedia.org/wiki/List_of_winners_of_the_National_Book_Award",
+      "title": "The Swerve: How the World Became Modern",
+      "author": "Stephen Greenblatt",
+      "date": {
+        "month": "",
+        "year": "2011",
+        "day": ""
+      },
+      "description": ""
+    },
+    {
+      "book_list": "nationabookawardsnonfiction",
+      "source": "https://en.wikipedia.org/wiki/List_of_winners_of_the_National_Book_Award",
+      "title": "Behind the Beautiful Forevers: Life, Death, and Hope in a Mumbai Undercity",
+      "author": "Katherine Boo",
+      "date": {
+        "month": "",
+        "year": "2012",
+        "day": ""
+      },
+      "description": ""
+    },
+    {
+      "book_list": "nationabookawardsnonfiction",
+      "source": "https://en.wikipedia.org/wiki/List_of_winners_of_the_National_Book_Award",
+      "title": "The Unwinding: An Inner History of the New America",
+      "author": "George Packer",
+      "date": {
+        "month": "",
+        "year": "2013",
+        "day": ""
+      },
+      "description": ""
+    },
+    {
+      "book_list": "nationabookawardsnonfiction",
+      "source": "https://en.wikipedia.org/wiki/List_of_winners_of_the_National_Book_Award",
+      "title": "Age of Ambition: Chasing Fortune, Truth, and Faith in the New China",
+      "author": "Evan Osnos",
+      "date": {
+        "month": "",
+        "year": "2014",
+        "day": ""
+      },
+      "description": ""
+    },
+    {
+      "book_list": "nationabookawardsnonfiction",
+      "source": "https://en.wikipedia.org/wiki/List_of_winners_of_the_National_Book_Award",
+      "title": "Between the World and Me",
+      "author": "Ta-Nehisi Coates",
+      "date": {
+        "month": "",
+        "year": "2015",
+        "day": ""
+      },
+      "description": ""
+    },
+    {
+      "book_list": "nationabookawardsnonfiction",
+      "source": "https://en.wikipedia.org/wiki/List_of_winners_of_the_National_Book_Award",
+      "title": "Stamped from the Beginning: The Definitive History of Racist Ideas in America",
+      "author": "Ibram X. Kendi",
+      "date": {
+        "month": "",
+        "year": "2016",
+        "day": ""
+      },
+      "description": ""
+    },
+    {
+      "book_list": "nationabookawardsnonfiction",
+      "source": "https://en.wikipedia.org/wiki/List_of_winners_of_the_National_Book_Award",
+      "title": "The Future Is History: How Totalitarianism Reclaimed Russia",
+      "author": "Masha Gessen",
+      "date": {
+        "month": "",
+        "year": "2017",
+        "day": ""
+      },
+      "description": ""
+    },
+    {
+      "book_list": "nationabookawardsnonfiction",
+      "source": "https://en.wikipedia.org/wiki/List_of_winners_of_the_National_Book_Award",
+      "title": "The New Negro: The Life of Alain Locke",
+      "author": "Jeffrey C. Stewart",
+      "date": {
+        "month": "",
+        "year": "2018",
+        "day": ""
+      },
+      "description": ""
+    },
+    {
+      "book_list": "nationabookawardsnonfiction",
+      "source": "https://en.wikipedia.org/wiki/List_of_winners_of_the_National_Book_Award",
+      "title": "The Yellow House",
+      "author": "Sarah M. Broom",
+      "date": {
+        "month": "",
+        "year": "2019",
+        "day": ""
+      },
+      "description": ""
+    },
+    {
+      "book_list": "nationabookawardsnonfiction",
+      "source": "https://en.wikipedia.org/wiki/List_of_winners_of_the_National_Book_Award",
+      "title": "The Dead Are Arising: The Life of Malcolm X",
+      "author": "Les Payne and Tamara Payne",
+      "date": {
+        "month": "",
+        "year": "2020",
+        "day": ""
+      },
+      "description": ""
+    },
+    {
+      "book_list": "nationabookawardsnonfiction",
+      "source": "https://en.wikipedia.org/wiki/List_of_winners_of_the_National_Book_Award",
+      "title": "All That She Carried: The Journey of Ashley’s Sack, a Black Family Keepsake",
+      "author": "Tiya Miles",
+      "date": {
+        "month": "",
+        "year": "2021",
+        "day": ""
+      },
+      "description": ""
+    },
+    {
+      "book_list": "nationabookawardsnonfiction",
+      "source": "https://en.wikipedia.org/wiki/List_of_winners_of_the_National_Book_Award",
+      "title": "South to America: A Journey Below the Mason-Dixon To Understand the Soul of a Nation",
+      "author": "Imani Perry",
+      "date": {
+        "month": "",
+        "year": "2022",
+        "day": ""
+      },
+      "description": ""
+    },
+    {
+      "book_list": "nationabookawardsnonfiction",
+      "source": "https://en.wikipedia.org/wiki/List_of_winners_of_the_National_Book_Award",
+      "title": "The Rediscovery of America: Native Peoples and the unmaking of US history",
+      "author": "Ned Blackhawk",
+      "date": {
+        "month": "",
+        "year": "2023",
+        "day": ""
+      },
+      "description": ""
+    },
+
+    {
+      "book_list": "nationabookawardsfiction",
+      "source": "https://en.wikipedia.org/wiki/List_of_winners_of_the_National_Book_Award",
+      "title": "Victory Over Japan: A Book of Stories",
+      "author": "Ellen Gilchrist",
+      "date": {
+        "month": "",
+        "year": "1984",
+        "day": ""
+      },
+      "description": ""
+    },
+    {
+      "book_list": "nationabookawardsfiction",
+      "source": "https://en.wikipedia.org/wiki/List_of_winners_of_the_National_Book_Award",
+      "title": "White Noise",
+      "author": "Don DeLillo",
+      "date": {
+        "month": "",
+        "year": "1985",
+        "day": ""
+      },
+      "description": ""
+    },
+    {
+      "book_list": "nationabookawardsfiction",
+      "source": "https://en.wikipedia.org/wiki/List_of_winners_of_the_National_Book_Award",
+      "title": "World's Fair",
+      "author": "E.L. Doctorow",
+      "date": {
+        "month": "",
+        "year": "1986",
+        "day": ""
+      },
+      "description": ""
+    },
+    {
+      "book_list": "nationabookawardsfiction",
+      "source": "https://en.wikipedia.org/wiki/List_of_winners_of_the_National_Book_Award",
+      "title": "Paco's Story",
+      "author": "Larry Heinemann",
+      "date": {
+        "month": "",
+        "year": "1987",
+        "day": ""
+      },
+      "description": ""
+    },
+    {
+      "book_list": "nationabookawardsfiction",
+      "source": "https://en.wikipedia.org/wiki/List_of_winners_of_the_National_Book_Award",
+      "title": "Paris Trout",
+      "author": "Pete Dexter",
+      "date": {
+        "month": "",
+        "year": "1988",
+        "day": ""
+      },
+      "description": ""
+    },
+    {
+      "book_list": "nationabookawardsfiction",
+      "source": "https://en.wikipedia.org/wiki/List_of_winners_of_the_National_Book_Award",
+      "title": "Spartina",
+      "author": "John Casey",
+      "date": {
+        "month": "",
+        "year": "1989",
+        "day": ""
+      },
+      "description": ""
+    },
+    {
+      "book_list": "nationabookawardsfiction",
+      "source": "https://en.wikipedia.org/wiki/List_of_winners_of_the_National_Book_Award",
+      "title": "Middle Passage",
+      "author": "Charles Johnson",
+      "date": {
+        "month": "",
+        "year": "1990",
+        "day": ""
+      },
+      "description": ""
+    },
+    {
+      "book_list": "nationabookawardsfiction",
+      "source": "https://en.wikipedia.org/wiki/List_of_winners_of_the_National_Book_Award",
+      "title": "Mating",
+      "author": "Norman Rush",
+      "date": {
+        "month": "",
+        "year": "1991",
+        "day": ""
+      },
+      "description": ""
+    },
+    {
+      "book_list": "nationabookawardsfiction",
+      "source": "https://en.wikipedia.org/wiki/List_of_winners_of_the_National_Book_Award",
+      "title": "All the Pretty Horses",
+      "author": "Cormac McCarthy",
+      "date": {
+        "month": "",
+        "year": "1992",
+        "day": ""
+      },
+      "description": ""
+    },
+    {
+      "book_list": "nationabookawardsfiction",
+      "source": "https://en.wikipedia.org/wiki/List_of_winners_of_the_National_Book_Award",
+      "title": "The Shipping News",
+      "author": "E. Annie Proulx",
+      "date": {
+        "month": "",
+        "year": "1993",
+        "day": ""
+      },
+      "description": ""
+    },
+    {
+      "book_list": "nationabookawardsfiction",
+      "source": "https://en.wikipedia.org/wiki/List_of_winners_of_the_National_Book_Award",
+      "title": "A Frolic of His Own",
+      "author": "William Gaddis",
+      "date": {
+        "month": "",
+        "year": "1994",
+        "day": ""
+      },
+      "description": ""
+    },
+    {
+      "book_list": "nationabookawardsfiction",
+      "source": "https://en.wikipedia.org/wiki/List_of_winners_of_the_National_Book_Award",
+      "title": "Sabbath's Theater",
+      "author": "Philip Roth",
+      "date": {
+        "month": "",
+        "year": "1995",
+        "day": ""
+      },
+      "description": ""
+    },
+    {
+      "book_list": "nationabookawardsfiction",
+      "source": "https://en.wikipedia.org/wiki/List_of_winners_of_the_National_Book_Award",
+      "title": "Ship Fever and Other Stories",
+      "author": "Andrea Barrett",
+      "date": {
+        "month": "",
+        "year": "1996",
+        "day": ""
+      },
+      "description": ""
+    },
+    {
+      "book_list": "nationabookawardsfiction",
+      "source": "https://en.wikipedia.org/wiki/List_of_winners_of_the_National_Book_Award",
+      "title": "Cold Mountain",
+      "author": "Charles Frazier",
+      "date": {
+        "month": "",
+        "year": "1997",
+        "day": ""
+      },
+      "description": ""
+    },
+    {
+      "book_list": "nationabookawardsfiction",
+      "source": "https://en.wikipedia.org/wiki/List_of_winners_of_the_National_Book_Award",
+      "title": "Charming Billy",
+      "author": "Alice McDermott",
+      "date": {
+        "month": "",
+        "year": "1998",
+        "day": ""
+      },
+      "description": ""
+    },
+    {
+      "book_list": "nationabookawardsfiction",
+      "source": "https://en.wikipedia.org/wiki/List_of_winners_of_the_National_Book_Award",
+      "title": "Waiting",
+      "author": "Ha Jin",
+      "date": {
+        "month": "",
+        "year": "1999",
+        "day": ""
+      },
+      "description": ""
+    },
+    {
+      "book_list": "nationabookawardsfiction",
+      "source": "https://en.wikipedia.org/wiki/List_of_winners_of_the_National_Book_Award",
+      "title": "In America",
+      "author": "Susan Sontag",
+      "date": {
+        "month": "",
+        "year": "2000",
+        "day": ""
+      },
+      "description": ""
+    },
+    {
+      "book_list": "nationabookawardsfiction",
+      "source": "https://en.wikipedia.org/wiki/List_of_winners_of_the_National_Book_Award",
+      "title": "The Corrections",
+      "author": "Jonathan Franzen",
+      "date": {
+        "month": "",
+        "year": "2001",
+        "day": ""
+      },
+      "description": ""
+    },
+    {
+      "book_list": "nationabookawardsfiction",
+      "source": "https://en.wikipedia.org/wiki/List_of_winners_of_the_National_Book_Award",
+      "title": "Three Junes",
+      "author": "Julia Glass",
+      "date": {
+        "month": "",
+        "year": "2002",
+        "day": ""
+      },
+      "description": ""
+    },
+    {
+      "book_list": "nationabookawardsfiction",
+      "source": "https://en.wikipedia.org/wiki/List_of_winners_of_the_National_Book_Award",
+      "title": "The Great Fire",
+      "author": "Shirley Hazzard",
+      "date": {
+        "month": "",
+        "year": "2003",
+        "day": ""
+      },
+      "description": ""
+    },
+    {
+      "book_list": "nationabookawardsfiction",
+      "source": "https://en.wikipedia.org/wiki/List_of_winners_of_the_National_Book_Award",
+      "title": "The News from Paraguay",
+      "author": "Lily Tuck",
+      "date": {
+        "month": "",
+        "year": "2004",
+        "day": ""
+      },
+      "description": ""
+    },
+    {
+      "book_list": "nationabookawardsfiction",
+      "source": "https://en.wikipedia.org/wiki/List_of_winners_of_the_National_Book_Award",
+      "title": "Europe Central",
+      "author": "William T. Vollmann",
+      "date": {
+        "month": "",
+        "year": "2005",
+        "day": ""
+      },
+      "description": ""
+    },
+    {
+      "book_list": "nationabookawardsfiction",
+      "source": "https://en.wikipedia.org/wiki/List_of_winners_of_the_National_Book_Award",
+      "title": "The Echo Maker",
+      "author": "Richard Powers",
+      "date": {
+        "month": "",
+        "year": "2006",
+        "day": ""
+      },
+      "description": ""
+    },
+    {
+      "book_list": "nationabookawardsfiction",
+      "source": "https://en.wikipedia.org/wiki/List_of_winners_of_the_National_Book_Award",
+      "title": "Tree of Smoke",
+      "author": "Denis Johnson",
+      "date": {
+        "month": "",
+        "year": "2007",
+        "day": ""
+      },
+      "description": ""
+    },
+    {
+      "book_list": "nationabookawardsfiction",
+      "source": "https://en.wikipedia.org/wiki/List_of_winners_of_the_National_Book_Award",
+      "title": "Shadow Country",
+      "author": "Peter Matthiessen",
+      "date": {
+        "month": "",
+        "year": "2008",
+        "day": ""
+      },
+      "description": ""
+    },
+    {
+      "book_list": "nationabookawardsfiction",
+      "source": "https://en.wikipedia.org/wiki/List_of_winners_of_the_National_Book_Award",
+      "title": "Let the Great World Spin",
+      "author": "Colum McCann",
+      "date": {
+        "month": "",
+        "year": "2009",
+        "day": ""
+      },
+      "description": ""
+    },
+    {
+      "book_list": "nationabookawardsfiction",
+      "source": "https://en.wikipedia.org/wiki/List_of_winners_of_the_National_Book_Award",
+      "title": "Lord of Misrule",
+      "author": "Jaimy Gordon",
+      "date": {
+        "month": "",
+        "year": "2010",
+        "day": ""
+      },
+      "description": ""
+    },
+    {
+      "book_list": "nationabookawardsfiction",
+      "source": "https://en.wikipedia.org/wiki/List_of_winners_of_the_National_Book_Award",
+      "title": "Salvage the Bones",
+      "author": "Jesmyn Ward",
+      "date": {
+        "month": "",
+        "year": "2011",
+        "day": ""
+      },
+      "description": ""
+    },
+    {
+      "book_list": "nationabookawardsfiction",
+      "source": "https://en.wikipedia.org/wiki/List_of_winners_of_the_National_Book_Award",
+      "title": "The Round House",
+      "author": "Louise Erdrich",
+      "date": {
+        "month": "",
+        "year": "2012",
+        "day": ""
+      },
+      "description": ""
+    },
+    {
+      "book_list": "nationabookawardsfiction",
+      "source": "https://en.wikipedia.org/wiki/List_of_winners_of_the_National_Book_Award",
+      "title": "The Good Lord Bird",
+      "author": "James McBride",
+      "date": {
+        "month": "",
+        "year": "2013",
+        "day": ""
+      },
+      "description": ""
+    },
+    {
+      "book_list": "nationabookawardsfiction",
+      "source": "https://en.wikipedia.org/wiki/List_of_winners_of_the_National_Book_Award",
+      "title": "Redeployment",
+      "author": "Phil Klay",
+      "date": {
+        "month": "",
+        "year": "2014",
+        "day": ""
+      },
+      "description": ""
+    },
+    {
+      "book_list": "nationabookawardsfiction",
+      "source": "https://en.wikipedia.org/wiki/List_of_winners_of_the_National_Book_Award",
+      "title": "Fortune Smiles",
+      "author": "Adam Johnson",
+      "date": {
+        "month": "",
+        "year": "2015",
+        "day": ""
+      },
+      "description": ""
+    },
+    {
+      "book_list": "nationabookawardsfiction",
+      "source": "https://en.wikipedia.org/wiki/List_of_winners_of_the_National_Book_Award",
+      "title": "The Underground Railroad",
+      "author": "Colson Whitehead",
+      "date": {
+        "month": "",
+        "year": "2016",
+        "day": ""
+      },
+      "description": ""
+    },
+    {
+      "book_list": "nationabookawardsfiction",
+      "source": "https://en.wikipedia.org/wiki/List_of_winners_of_the_National_Book_Award",
+      "title": "Sing, Unburied, Sing",
+      "author": "Jesmyn Ward",
+      "date": {
+        "month": "",
+        "year": "2017",
+        "day": ""
+      },
+      "description": ""
+    },
+    {
+      "book_list": "nationabookawardsfiction",
+      "source": "https://en.wikipedia.org/wiki/List_of_winners_of_the_National_Book_Award",
+      "title": "The Friend",
+      "author": "Sigrid Nunez",
+      "date": {
+        "month": "",
+        "year": "2018",
+        "day": ""
+      },
+      "description": ""
+    },
+    {
+      "book_list": "nationabookawardsfiction",
+      "source": "https://en.wikipedia.org/wiki/List_of_winners_of_the_National_Book_Award",
+      "title": "Trust Exercise",
+      "author": "Susan Choi",
+      "date": {
+        "month": "",
+        "year": "2019",
+        "day": ""
+      },
+      "description": ""
+    },
+    {
+      "book_list": "nationabookawardsfiction",
+      "source": "https://en.wikipedia.org/wiki/List_of_winners_of_the_National_Book_Award",
+      "title": "Interior Chinatown",
+      "author": "Charles Yu",
+      "date": {
+        "month": "",
+        "year": "2020",
+        "day": ""
+      },
+      "description": ""
+    },
+    {
+      "book_list": "nationabookawardsfiction",
+      "source": "https://en.wikipedia.org/wiki/List_of_winners_of_the_National_Book_Award",
+      "title": "Hell of a Book",
+      "author": "Jason Mott",
+      "date": {
+        "month": "",
+        "year": "2021",
+        "day": ""
+      },
+      "description": ""
+    },
+    {
+      "book_list": "nationabookawardsfiction",
+      "source": "https://en.wikipedia.org/wiki/List_of_winners_of_the_National_Book_Award",
+      "title": "The Rabbit Hutch",
+      "author": "Tess Gunty",
+      "date": {
+        "month": "",
+        "year": "2022",
+        "day": ""
+      },
+      "description": ""
+    },
+    {
+      "book_list": "nationabookawardsfiction",
+      "source": "https://en.wikipedia.org/wiki/List_of_winners_of_the_National_Book_Award",
+      "title": "Blackouts",
+      "author": "Justin Torres",
+      "date": {
+        "month": "",
+        "year": "2023",
+        "day": ""
+      },
+      "description": ""
+    },
     {
       "book_list": "nyt-combined-print-and-e-book-nonfiction",
       "source": "https://www.nytimes.com/books/best-sellers/",

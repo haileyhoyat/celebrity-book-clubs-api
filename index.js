@@ -44,6 +44,10 @@ async function getbooks(){
     // await goodmorningamerica()
     // await nytcombinedprintandebookfiction()
     // await nytcombinedprintandebooknonfiction()
+    // await nationalbookawardsfiction()
+    // await nationalbookawardsnonfiction()
+    // await nationalbookawardspoetry()
+    await nationalbookawardsyoungpeoplesliterature()
 }
 
 getbooks()
@@ -376,6 +380,7 @@ function nytcombinedprintandebookfiction(){
                     })
                 }
 
+                //only scrape weeks from most current week back to December 2023
                 if (response.data.results.previous_published_date != '2023-11-26'){
                     //api has request limit. nyt suggests 12s between each request to avoid reaching limit, otherwise will get 429 error. 
                     //https://developer.nytimes.com/faq#a11
@@ -435,6 +440,7 @@ function nytcombinedprintandebooknonfiction(){
                     })
                 }
 
+                //only scrape weeks from most current week back to December 2023
                 if (response.data.results.previous_published_date != '2023-11-26'){
                     //api has request limit. nyt suggests 12s between each request to avoid reaching limit, otherwise will get 429 error. 
                     //https://developer.nytimes.com/faq#a11
@@ -452,8 +458,157 @@ function nytcombinedprintandebooknonfiction(){
 }
 
 function nationalbookawardsfiction(){
+    axios.get('https://en.wikipedia.org/wiki/List_of_winners_of_the_National_Book_Award')
+        .then((response) => {
+            const html = response.data
+            //console.log(html)
+            const $ = cheerio.load(html)
+            all_elements = []
+            //caption:contains('National Book Award for Fiction winners, 1984 to present')
+            $(".wikitable caption:contains('National Book Award for Fiction winners, 1984 to present') + tbody tr", html).each(function(){
+                
+                //console.log($(this).text())
 
+                all_elements.push($(this).text())
+
+            })
+            all_elements.shift()
+            //console.log(all_elements)
+            for (let i = 0 ; i < all_elements.length; i ++){
+                //all_elements[i].split('\n')
+                books.push({
+                    //full_string: full_string,
+                    book_list: 'nationabookawardsfiction',
+                    source: 'https://en.wikipedia.org/wiki/List_of_winners_of_the_National_Book_Award',
+                    title: all_elements[i].split('\n')[5],
+                    author: all_elements[i].split('\n')[3],
+                    date: {
+                        month:"",
+                        year: all_elements[i].split('\n')[1],
+                        day: ""
+                    },
+                    description: ""
+                    
+                })
+            }
+
+        })
 }
+
+function nationalbookawardsnonfiction(){
+    axios.get('https://en.wikipedia.org/wiki/List_of_winners_of_the_National_Book_Award')
+        .then((response) => {
+            const html = response.data
+            //console.log(html)
+            const $ = cheerio.load(html)
+            all_elements = []
+            //caption:contains('National Book Award for Fiction winners, 1984 to present')
+            $(".wikitable caption:contains('National Book Award for Nonfiction winners, 1984 to present') + tbody tr", html).each(function(){
+                
+                //console.log($(this).text())
+
+                all_elements.push($(this).text())
+
+            })
+            all_elements.shift()
+            //console.log(all_elements)
+            for (let i = 0 ; i < all_elements.length; i ++){
+                //all_elements[i].split('\n')
+                books.push({
+                    //full_string: full_string,
+                    book_list: 'nationabookawardsnonfiction',
+                    source: 'https://en.wikipedia.org/wiki/List_of_winners_of_the_National_Book_Award',
+                    title: all_elements[i].split('\n')[5],
+                    author: all_elements[i].split('\n')[3],
+                    date: {
+                        month:"",
+                        year: all_elements[i].split('\n')[1],
+                        day: ""
+                    },
+                    description: ""
+                    
+                })
+            }
+
+        })
+}
+
+function nationalbookawardspoetry(){
+    axios.get('https://en.wikipedia.org/wiki/List_of_winners_of_the_National_Book_Award')
+        .then((response) => {
+            const html = response.data
+            //console.log(html)
+            const $ = cheerio.load(html)
+            all_elements = []
+            //caption:contains('National Book Award for Fiction winners, 1984 to present')
+            $(".wikitable caption:contains('National Book Award for Poetry winners, 1991 to present') + tbody tr", html).each(function(){
+                
+                //console.log($(this).text())
+
+                all_elements.push($(this).text())
+
+            })
+            all_elements.shift()
+            //console.log(all_elements)
+            for (let i = 0 ; i < all_elements.length; i ++){
+                //all_elements[i].split('\n')
+                books.push({
+                    //full_string: full_string,
+                    book_list: 'nationabookawardspoetry',
+                    source: 'https://en.wikipedia.org/wiki/List_of_winners_of_the_National_Book_Award',
+                    title: all_elements[i].split('\n')[5],
+                    author: all_elements[i].split('\n')[3],
+                    date: {
+                        month:"",
+                        year: all_elements[i].split('\n')[1],
+                        day: ""
+                    },
+                    description: ""
+                    
+                })
+            }
+
+        })
+}
+
+function nationalbookawardsyoungpeoplesliterature(){
+    axios.get('https://en.wikipedia.org/wiki/List_of_winners_of_the_National_Book_Award')
+        .then((response) => {
+            const html = response.data
+            //console.log(html)
+            const $ = cheerio.load(html)
+            all_elements = []
+            //caption:contains('National Book Award for Fiction winners, 1984 to present')
+            $(".wikitable caption:contains('National Book Award for Young People's Literature winners, 1996 to present') + tbody tr", html).each(function(){
+                
+                //console.log($(this).text())
+
+                all_elements.push($(this).text())
+
+            })
+            all_elements.shift()
+            //console.log(all_elements)
+            for (let i = 0 ; i < all_elements.length; i ++){
+                //all_elements[i].split('\n')
+                books.push({
+                    //full_string: full_string,
+                    book_list: 'nationalbookawardsyoungpeoplesliterature',
+                    source: 'https://en.wikipedia.org/wiki/List_of_winners_of_the_National_Book_Award',
+                    title: all_elements[i].split('\n')[5],
+                    author: all_elements[i].split('\n')[3],
+                    date: {
+                        month:"",
+                        year: all_elements[i].split('\n')[1],
+                        day: ""
+                    },
+                    description: ""
+                    
+                })
+            }
+
+        })
+}
+
 
 app.listen(PORT, () => console.log(`Listening on port ${PORT}`))
 
